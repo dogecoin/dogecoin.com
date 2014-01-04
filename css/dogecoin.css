@@ -1,0 +1,76 @@
+html {
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+body {
+    background: #F2EDE0;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    position: static !important;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 4em;
+    line-height: 1em;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#tumblr_controls {
+    display: none !important;
+}
+
+.bubble {
+    position: fixed;
+    display: block;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.downloads .button {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 4px 0px;
+}
+
+a, a:link, a:visited {
+    color: #2a80b9;
+}
+
+a {
+    color: #812767;
+    text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+    color: #439fe0;
+}
+
+li {
+    margin: 1em 0;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #999;
+    background-image: -webkit-linear-gradient(left, #ccc, #999, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #999, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #999, #ccc);
+    background-image: -o-linear-gradient(left, #ccc, #999, #ccc);
+}
+
+.goog-te-gadget-simple {
+    background-color: #F2EDE0 !important;
+    border: 0px !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
