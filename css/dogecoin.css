@@ -74,3 +74,13 @@ hr {
     border: 0px !important;
     font-family: 'Open Sans', sans-serif !important;
 }
+
+.avatar {
+    vertical-align: middle;
+    padding-right: 22px;
+    border: none;
+}
+
+.middle {
+    vertical-align: middle;
+}
