@@ -84,3 +84,31 @@ hr {
 .middle {
     vertical-align: middle;
 }
+
+.logo-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+.watch-video {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 2;
+    border: 2px solid #111;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.watch-video:hover {
+    border: 2px solid #C30000;
+}
+
+.logo {
+    max-width: 300px;
+}
+
+.video {
+    max-width: 640px;
+}
