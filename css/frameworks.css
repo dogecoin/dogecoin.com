@@ -851,6 +851,24 @@ body {
   background-color: #d52a3c;
 }
 
+.button.is-blackberry {
+  border-color: #111;
+  background-color: #333;
+  color: white;
+}
+
+.button.is-blackberry:hover,
+.button.is-blackberry:focus {
+  border-color: #333;
+  background-color: #555;
+}
+
+.button.is-blackberry:active,
+.button.is-blackberry.is-active {
+  border-color: #333;
+  background-color: #555;
+}
+
 .button.is-inverse {
   border-color: #434a54;
   background-color: #656d78;
