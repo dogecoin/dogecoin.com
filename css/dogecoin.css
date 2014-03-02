@@ -21,6 +21,14 @@ h1 {
     text-align: center;
 }
 
+.left-align {
+    text-align: left;
+}
+
+.note {
+    color: #888;
+}
+
 h3 {
     font-family: 'Open Sans', sans-serif;
 }
