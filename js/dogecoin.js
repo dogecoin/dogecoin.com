@@ -26,7 +26,7 @@ $(document).ready(function() {
     */
 
     function addItem() {
-        items = Array('such currency', 'wow', 'amaze', 'much coin', 'awesome', 'so crypto', 'how money', 'plz mine', 'v rich', 'many coins', 'such profit', 'WOW');
+        items = Array('such currency', 'wow', 'amaze', 'much coin', 'awesome', 'so crypto', 'how money', 'plz mine', 'v rich', 'many coins', 'such profit', 'WOW', 'v shibe');
         docHeight = $(document).innerHeight();
         docWidth = $(document).innerWidth()
         text = items[Math.floor(Math.random() * items.length)];
