@@ -1,203 +1,403 @@
 <!DOCTYPE html>
-
 <html>
 <head>
-
+	<!--
+	       __                            _     
+	  ____/ /___  ____ ____  _________  (_)___ 
+	 / __  / __ \/ __ `/ _ \/ ___/ __ \/ / __ \
+	/ /_/ / /_/ / /_/ /  __/ /__/ /_/ / / / / /
+	\__,_/\____/\__, /\___/\___/\____/_/_/ /_/ 
+               /____/                          
+		
+	so markup. very website. wow.	   
+	-->
+	
     <!-- Meta -->
-    <meta charset="utf-8">
-    <title>Dogecoin</title>
-    <meta content="so crypto. much coin. to the moon." name="description">
-    <meta content="n8eH82kEq3wKHyj86ZImGMQksW2fD9JPTjph5LjS5UI" name="google-site-verification">
+	<title>Dogecoin</title>
+	<meta charset="utf-8">
+	<meta content="Dogecoin is a new and socially innovative digital currency for the masses. Based on the Shiba Inu meme, Doge, our community has donated huge amounts to a number of causes." name="description">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="yes" name="apple-mobile-web-app-capable">
-    <link rel="icon" type="image/png" href="img/avatar.png">
-    <link href="img/avatar.png" rel="shortcut icon">
-    <link href="img/avatar.png" rel="apple-touch-icon-precomposed">
-    <meta content="on" http-equiv="cleartype">
-    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-    <meta content="1b41ba6a981ca733-30a07733f942737f-g55f33b1da493d953-c" name="google-translate-customization">
-    <meta content="off" http-equiv="x-dns-prefetch-control">
-
-    <!-- CSS -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald' rel='stylesheet' type='text/css'>
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" type="text/css"/>
-
-    <!-- HTML5 Shiv -->
+	
+	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/FitText.js/1.1/jquery.fittext.min.js"></script>
+	
+	<!-- HTML5 Shiv -->
     <!--[if lt IE 9]>
     	<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
     <![endif]-->
-
+	
+	<!-- Bootstrap -->
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	
+	<!-- CSS -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700%7COswald' rel='stylesheet' type='text/css'>
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="/css/font-mfizz/font-mfizz.css" type="text/css"/>
+	<link rel="stylesheet" type="text/css" href="/css/dogecoin.css">
+	
 </head>
 
 <body>
-    <div class="grid grid-pad">
-        <div class="col-1-1">
-            <div class="centered content stars">
-                <h1>DOGECOIN</h1>
 
+<div class="text-center" style="background-color: #f2ede0; background-image: url('/imgs/space_wallpaper.jpg'); background-repeat:no-repeat; background-size:cover;">
+	<div style="padding-top: 25px;">
+		<h1 class="dogefont" style="color: white; font-size: 5em; line-height: 1em; margin-bottom: 25px;">DOGECOIN</h1>
+		<img src="/imgs/dogecoin-300.png" alt="Dogecoin Logo">
+		<h4 style="color: white;">"It's not a technological revolution; it's a social revolution."</h4>
+		<!-- Buttons -->
+		<h3 class="dogefont" style="color: white; display: inline-block; margin-top: 5px;">START YOUR JOURNEY TO THE MOON TODAY:</h3>
+		<i style="color: white; vertical-align: top; padding-top: 4px;" class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title='"Start your Journey to the Moon" is a phrase which means to start using Dogecoins today!'></i>
+		<div class="downloads">
+			<a class="btn btn-md btn-info wallet-button" data-toggle="modal" data-target="#windows-wallet-modal"><span class="fa fa-windows"></span> Windows</a>
+			<a class="btn btn-md btn-default wallet-button" data-toggle="modal" data-target="#osx-wallet-modal"><span class="fa fa-apple"></span> OS X</a> 
+			<a class="btn btn-md btn-primary wallet-button" href="https://github.com/langerhans/multidoge/releases/download/v0.1.2/multidoge-0.1.2-linux.jar"><span class="fa fa-linux"></span> Linux</a>
+			<a class="btn btn-md btn-android wallet-button" href="https://play.google.com/store/apps/details?id=de.langerhans.wallet" target="_blank"><span class="fa fa-android"></span> Android</a>
+			<a class="btn btn-md btn-blackberry wallet-button" href="http://appworld.blackberry.com/webstore/content/47952864" target="_blank"><span class="icon-blackberry"></span> Blackberry</a>  
+			<a class="btn btn-md btn-warning wallet-button" data-toggle="modal" data-target="#browser-modal"><span class="fa fa-cloud"></span> Browser</a>
+			<a class="btn btn-md btn-danger wallet-button" href="https://github.com/dogecoin/dogecoin" target="_blank"><span class="fa fa-github"></span> Source</a>
+		</div>
+		<div class="border" style="background-color: #1e4151;">
+			<div style="padding-bottom: 10px; padding-top: 10px;">
+				<a id="scroll-button" href="#1" title="Click to scroll down"><img src="/imgs/scrolldown.png" width="45" height="45" alt="Scroll Down Button"></a>
+			</div>
+		</div>
+	</div>
+</div>
 
-                <div class="logo-container logo">
-                <img class="watch-video" src="img/such-video.png"/>
-                <img alt="dogecoin" src="img/dogecoin-300.png">
-                </div>
+<div style="background-color: #f6b442;">
+	<div class="container">
+		<div class="row">
+			<div style="padding-bottom: 20px; padding-top: 25px;">
+				<a id="1"></a>
+				<div class="col-md-4 text-center">
+					<img src="/imgs/doge.png" alt="Doge">
+				</div>
+				<div class="col-md-8" style="color: white;">
+					<h1 class="fit-h1"><strong>What is Dogecoin?</strong></h1>
+					<p>Dogecoin is the secure, person-to-person digital currency that is free of slow banks, frozen funds, and outrageous fees. It's money, but better.</p>
+					<h4><a href="/getting-started"><strong>Get Started Now</strong></a> | <a style="cursor: pointer;" data-toggle="modal" data-target="#learnmore-modal"><strong>Learn More</strong></a></h4>
+					<hr style="border-color: white">
+					<h2 class="fit-h2"><strong>Why is there a Dog on our coin?</strong></h2>
+					<p>Because it's our fun, friendly mascot! The Shiba Inu is a breed of dog that represents our currency. But we call it Doge; it's the name of our mascot!</p>
+					<h4 class="fit-h4-2"><a href="http://knowyourmeme.com/memes/doge" target="_blank"><strong>Learn more about Doge</strong></a> | <a href="http://en.wikipedia.org/wiki/Shiba_Inu" target="_blank"><strong>Shiba Inu</strong></a></h4>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
-                <p>dogecoin is an open source peer-to-peer cryptocurrency, favored by Shiba Inus worldwide.</p>
+<div style="background-color: #8cc152;">
+	<div class="container">
+		<div class="row">
+			<div style="padding-top: 5%;">
+				<div class="col-md-8" style="color: white;">
+					<h1 class="fit-h1"><strong>The Lovable Coin; it's just so friendly.</strong></h1>
+					<p>Dogecoin is different - it's the coin with an amazing, vibrant community made up of friendly people just like you.</p>
+					<h4 class="fit-h4-1"><a href="http://www.reddit.com/r/dogecoin" target="_blank"><strong>Reddit Community</strong></a> | <a href="http://foundation.dogecoin.com" target="_blank"><strong>Dogecoin Foundation</strong></a></h4>
+				</div>
+				<div class="col-md-4" style="padding-bottom: 50px;">
+					<div id="youtube-video">
+						<iframe style="border:none" width="400" height="225" src="//www.youtube.com/embed/000al7ru3ms" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
-                <h3>START USING DOGECOIN TODAY:</h3>
+<div style="background-color: #3ba4da;">
+	<div class="container">
+		<div class="row">
+			<div style="padding-bottom: 20px; padding-top: 50px;">
+				<div class="col-md-4 text-center">
+					<img src="/imgs/dogecoin_mobilewallet.png" alt="Mobile Wallet" />
+				</div>
+				<div class="col-md-8" style="color: white;">
+					<h1 class="fit-h1"><strong>How to get started with Dogecoins.</strong></h1>
+					<p>Setting up a Dogecoin wallet isn't hard, because it's as <strong>easy</strong> as 1, 2, 3. Seriously! Look at our Getting Started guide below.</p>
+					<h4><a href="/getting-started" style="color: white;"><strong>Get Started Now</strong></a></h4>
+					<hr style="border-color: white;">
+					<p>Once you're done, join in on the fun in our friendly community! <br> We're a helpful bunch of people and we'll answer any questions that you throw at us!</p>
+					<h4><a href="http://www.reddit.com/r/dogecoin" style="color: white;"><strong>Reddit Community</strong></a></h4>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
-                <div class="downloads">
-                    <a class="button is-primary has-icon-spacing" href="https://github.com/dogecoin/dogecoin/releases/download/1.6/dogecoin-1.6.0.0-win32-setup.exe" target="_blank"><i class="fa fa-windows"></i>Windows</a> 
-                    <a class="button is-inverse has-icon-spacing" href="https://github.com/dogecoin/dogecoin/releases/download/1.6/dogecoin-qt-1_6_0-mac.zip" target="_blank"><i class="fa fa-apple"></i>OS X</a> 
-                    <a class="button is-danger has-icon-spacing" href="https://itunes.apple.com/us/app/mydoge/id805178886?mt=8" target="_blank"><i class="fa fa-mobile"></i>iOS</a> 
-                    <a class="button is-warning has-icon-spacing" href="https://play.google.com/store/apps/details?id=de.langerhans.wallet" target="_blank"><i class="fa fa-android"></i>Android</a>
-                    <a class="button is-blackberry has-icon-spacing" href="http://appworld.blackberry.com/webstore/content/47952864/" target="_blank"><i class="fa icon-blackberry"></i>Blackberry</a>  
-                    <a class="button is-success has-icon-spacing" href="#online-wallets"><i class="fa fa-cloud"></i>Browser</a>
-                    <a class="button is-secondary has-icon-spacing" href="https://github.com/dogecoin/dogecoin" target="_blank"><i class="fa fa-github"></i>Source</a>
-                </div>
+<br/>
 
-                <p>much newbie? <a href="/get-started">read the getting started guide</a>, then <a href="http://www.reddit.com/r/dogecoin" target="_blank">join the community at /r/dogecoin</a></p>
-            </div>
-        </div>
-    </div><!-- Grid 1/3 -->
+<div class="container">
+	<footer>
+		<div class="text-center">
+			<div class="row">
+				<h1 class="fit-h1"><strong>So what are you waiting for?</strong> Start your journey to the moon now!</h1>
+						
+				<div style="padding-top: 15px;">
+					<div class="col-md-3">
+						<a class="btn btn-default btn-circle btn-xl" href="/getting-started"><span class="fa fa-rocket fa-5x circle-center"></span></a>
+						<h3>Getting Started.</h3>
+						<h5>Learn how to use Dogecoins.</h5>
+					</div>
+					<div class="col-md-3">
+						<a class="btn btn-default btn-circle btn-xl" data-toggle="modal" data-target="#community-modal"><span class="fa fa-users fa-5x circle-center"></span></a>
+						<h3>Community.</h3>
+						<h5>Participate in our amazing community.</h5>
+					</div>
+					<div class="col-md-3">
+						<a class="btn btn-default btn-circle btn-xl" data-toggle="modal" data-target="#exchanges-modal"><span class="fa fa-exchange fa-5x circle-center"></span></a>
+						<h3>Exchanges.</h3>
+						<h5>Exchange for Dogecoins.</h5>
+					</div>
+					<div class="col-md-3">
+						<a class="btn btn-default btn-circle btn-xl" data-toggle="modal" data-target="#stores-modal"><span class="fa fa-shopping-cart fa-5x circle-center"></span></a>
+						<h3>Stores.</h3>
+						<h5>Buy with Dogecoins.</h5>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<h5>Created by <a href="http://steamcommunity.com/id/powerlemonz" target="_blank">PowerLemons</a>, <a href="https://twitter.com/BillyM2k" target="_blank">Shibetoshi Nakamoto</a> logo by <a href="https://twitter.com/christinericks" target="_blank">Christine Ricks</a>. Background by <a href="http://funerium.deviantart.com/" target="_blank">Funerium</a> at DeviantArt.</h5>
+			<h5>© The Ðogecoin Project</h5>
+		</div>
+	</footer>
+</div>
 
-    <div class="grid grid-pad">
-        <div class="col-1-3">
-            <div class="content">
-                <h3>such community</h3>
-
-                <ul>
-                    <li><a href="http://dogecoin.wikia.com/wiki/Dogecoin_Resources" target="_blank">the big ol' list of dogecoin resources</a></li>
-
-                    <li><a href="http://foundation.dogecoin.com/" target="_blank">the dogecoin foundation</a></li>
-                    
-                    <li><a href="http://dogechain.info/" target="_blank">dogechain block explorer</a></li>
-
-                    <li><a href="http://www.reddit.com/r/dogecoin" target="_blank">dogecoin subreddit</a></li>
-
-                    <li><a href="http://webchat.freenode.net/?nick=Shibe..&channels=%23dogecoin&prompt=1" target="_blank">#dogecoin irc</a></li>
-
-                </ul>
-            </div>
-        </div>
-
-        <div class="col-1-3">
-            <div class="content">
-                <h3>much news</h3>
-
-                <ul>
-                    <li><a href="http://blog.dogecoin.com" target="_blank">official dev blog</a></li>
-                
-                    <li><a href="https://bitcointalk.org/index.php?topic=361813.0" target="_blank">bitcointalk forum thread</a></li>
-
-                    <li><a href="http://twitter.com/dogecoin" target="_blank">follow on twitter</a></li>
-
-                    <li><a href="https://www.facebook.com/OfficialDogecoin" target="_blank">like on facebook</a></li>
-
-                    <li><a href="https://en.wikipedia.org/wiki/Dogecoin" target="_blank">learn more on wikipedia</a></li>
-
-                    <li><a href="http://minus.com/mbdwEbyAUPkk5R" target="_blank">hi res official logos</a></li>
-
-                    <li>1 DOGE = <a href="http://priceofdoge.com/" target=_"blank">1 DOGE</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="col-1-3">
-            <div class="content">
-                <h3>very fashion</h3>
-
-                <div class="centered">
-                    <a href="http://www.zazzle.com/official_dogecoin_t_shirt-235041754845982282" target="_blank"><img src="img/dogeshirt.png"></a>
-
-                    <p>buy on <a href="http://www.zazzle.com/official_dogecoin_t_shirt-235041754845982282" target="_blank">zazzle</a> or <a href="http://www.cafepress.com/mf/85632252/official-dogecoin_tshirt?productId=1212264456" target="_blank">cafepress</a></p>
-                </div>
-            </div>
-        </div>
+<!-- Modals -->
+<div class="modal fade" id="browser-modal" tabindex="-1" role="dialog" aria-labelledby="browser-modal-lable" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title dogefont" id="browser-modal-lable">CHOOSE AN ONLINE WALLET:</h4>
+        <h5>Online wallets are the quickest and easiest way to use Dogecoin, but lack the security of storing your wallet on your local computer. <br/><br/>We recommend you only store a small amount of Dogecoin in an online wallet at any time. <br/>There are several secure, browser-based wallets available to choose from:</h5>
+		<ul>
+			<li><a href="https://www.dogevault.com/" target="_blank">DogeVault</a></li>
+			<li><a href="https://secure.dogechain.info/wallet" target="_blank">DogeChain Wallet</a></li>
+			<li><a href="https://www.dogeapi.com/" target="_blank">DogeAPI</a></li>
+			<li><a href="https://moolah.io/" target="_blank">Moolah</a></li>
+		</ul>
+		<h5 class="note"><strong>Note:</strong> These online wallets are not owned or maintained by Dogecoin or the Dogecoin Foundation. While we are satisfied they are trustworthy, reliable services - please use at your own risk.</h5>
+      </div>
     </div>
+  </div>
+</div>
 
-    <div class="grid grid-pad">
-        <div class="col-1-1">
-            <div class="centered content">
-                <hr>
-
-                <p>created by <a href="http://www.ummjackson.com" target="_blank">Jackson Palmer</a> &amp; <a href="https://twitter.com/BillyM2k" target="_blank">Shibetoshi Nakamoto</a> logo by <a href="https://twitter.com/christinericks" target="_blank">Christine Ricks</a><br /> &#9400; the dogecoin project</p>
-
-                <div id="google_translate_element"></div>
-            </div>
-        </div>
+<div class="modal fade" id="learnmore-modal" tabindex="-1" role="dialog" aria-labelledby="learnmore-modal-lable" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title dogefont" id="learnmore-modal-lable">LEARN MORE:</h4>
+        <h5>Dogecoin is a fun, new and rapidly growing form of digital currency. <br/>This form of digital currency is called "cryptocurrency"; a type of digital currency.<br/>Cryptocurrency is completely anonymous, decentralized, and extremely secure. <br/><br/>Dogecoin is used with a wallet on your computer, your smartphone, or a website. <br/>You can use it to buy goods and services, or trade it for other currencies (both other cryptocurrencies or traditional currency like US dollars). <br/><br/>One of the most popular uses for Dogecoin is "tipping" fellow internet-goers who create or share great content. Think of it as a more meaningful "like" or upvote, with real value that can be used all across the internet. <br/><br/>It is very easy to start using Dogecoins.</h5>
+		<ul>
+			<li><strong>Step 1:</strong> Get A Wallet.</li>
+			<li><strong>Step 2:</strong> Get Some Dogecoins.</li>
+			<li><strong>Step 3:</strong> Use Your Dogecoins.</li>
+			<li><strong>Step 4:</strong> Stay Up-to-Date.</li>
+		</ul>
+		<h5>More information in the guide below.</h5>
+		<h5><a href="/getting-started">Getting Started Guide</a></h5>
+      </div>
     </div>
+  </div>
+</div>
 
-    <div class="remodal" data-remodal-id="online-wallets">
-        <div class="left-align">
-        <h3>CHOOSE AN ONLINE WALLET:</h3>
-        <p>Online wallets are the quickest and easiest way to use Dogecoin, but lack the security of storing your wallet on your local computer. We recommend you only store a small amount of Dogecoin in an online wallet at any time. There are several secure, browser-based wallets available to choose from:</p>
-        <ul>
-            <li><a href="https://www.dogevault.com/" target="_blank">DogeVault</a></li>
-            <li><a href="https://secure.dogechain.info/wallet" target="_blank">DogeChain Wallet</a></li>
-            <li><a href="https://www.dogeapi.com/" target="_blank">DogeAPI</a></li>
-            <li><a href="https://moolah.io/" target="_blank">Moolah</a></li>
-        </ul>
-        <p class="note"><strong>Note:</strong> These online wallets are not owned or maintained by Dogecoin or the Dogecoin Foundation. While we are satisfied they are trustworthy, reliable services - please use at your own risk.</p>
-        </div>
+<div class="modal fade" id="community-modal" tabindex="-1" role="dialog" aria-labelledby="community-modal-lable" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title dogefont" id="community-modal-lable">COMMUNITY:</h4>
+        <h5>Get involved with Dogecoin! <br/><br/>Participate in our Reddit community, chat on our IRC (Internet Chat) channel, or have fun on our forums.</h5>
+		<ul>
+			<li><a href="http://www.reddit.com/r/dogecoin" target="_blank">Reddit Community</a> - The Main Hotspot of the Dogecoin Community.</li>
+			<li><a href="http://foundation.dogecoin.com/" target="_blank">Dogecoin Foundation</a> - Non-Profit Organization which uses Dogecoin for goodwill and charitable endeavors.</li>
+			<li><a href="http://webchat.freenode.net/?nick=Shibe..&amp;channels=%23dogecoin&amp;prompt=1" target="_blank">#dogecoin IRC</a> - Dogecoin-based Internet Chat.</li>
+			<li><a href="http://doges.org/" target="_blank">Doges.org</a> - Dogecoin Forums.</li>
+		</ul>
+		<h5>We are friendly, and we will be happy to answer any Dogecoin-related questions. <br/>Try us, we promise we won't bite!</h5>
+      </div>
     </div>
+  </div>
+</div>
 
-    <!-- Google Analytics -->
-    <script>
-    (function(i,s,o,g,r,a,m){
-          i['GoogleAnalyticsObject']=r;
-          i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)}
-            ,i[r].l=1*new Date();
-          a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];
-          a.async=1;
-          a.src=g;
-          m.parentNode.insertBefore(a,m)
-        }
-        )(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        
-        ga('create', 'UA-28461406-3', 'dogecoin.com');
-        ga('send', 'pageview');       
-    </script>
+<div class="modal fade" id="exchanges-modal" tabindex="-1" role="dialog" aria-labelledby="exchanges-modal-lable" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title dogefont" id="exchanges-modal-lable">EXCHANGES:</h4>
+        <h5>You can trade Fiat (Dollars, Euros, Pounds, and more) in exchange for Dogecoins and vice versa in a numerous amount of exchanges with your bank account. <br/><br/>If you have other cryptocurrencies, such as Bitcoin, you can trade them for Dogecoin too. Send your Bitcoins to the deposit address, then trade for Dogecoins! <br/><br/>There are several exchanges to choose from:</h5>
+		<ul>
+			<li><a href="https://www.vaultofsatoshi.com/" target="_blank">Vault of Satoshi</a> (USD & CAD)</li>
+			<li><a href="https://anxpro.com/" target="_blank">ANXPRO</a> (USD, EUR, GBP, AUD, CAD, HKD, SGD, NZD)</li>
+			<li><a href="https://www.kraken.com/" target="_blank">Kraken</a> (USD, EUR)</li>
+			<li><a href="https://prelude.io/" target="_blank">Prelude.io</a> (USD)</li>
+			<li><a href="http://www.localdogecoin.com/" target="_blank">LocalDogecoin</a> (Most Fiat, check them out!)</li>
+		</ul>
+		<h5>LocalDogecoin isn't an exchange, but a website to purchase Dogecoins locally in your area, like Craigslist. You can purchase it face-to-face or on your computer.</h5>
+		<h5 class="note"><strong>Note:</strong> These online exchanges are not owned or maintained by Dogecoin or the Dogecoin Foundation. While we are satisfied they are trustworthy, reliable services - please use at your own risk.</h5>
+      </div>
+    </div>
+  </div>
+</div>
 
-    <!-- jQuery & Plugins -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
-    <script src="http://www.youtube.com/iframe_api"></script>
-    <script src="js/jquery.remodal.min.js"></script>
+<div class="modal fade" id="stores-modal" tabindex="-1" role="dialog" aria-labelledby="stores-modal-lable" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title dogefont" id="stores-modal-lable">STORES:</h4>
+        <h5>You can shop for goods online with Dogecoins. <br/><br/>Dogecoins is safe during checkout, because you don't put down any sensitive bank information! Just send your Dogecoins to the address specified by the merchant, and then you'll have your item processed and ready for delivery in an instant! <br/><br/>Here are some businesses that accept Dogecoin:</h5>
+		<ul>
+			<li><a href="http://www.bitcoinshop.us/" target="_blank">BitcoinShop.us</a></li>
+			<li><a href="https://dogeoutlet.com/" target="_blank">DogeOutlet</a></li>
+			<li><a href="http://shopdoge.com/" target="_blank">ShopDoge</a></li>
+		</ul>
+		<h5>If that isn't enough, you can look at the Dogecoin Business Directory below.</h5>
+		<h5><a href="http://dogedir.com/" target="_blank">Dogedir</a> - Dogecoin Business Directory.</h5>
+		<h5 class="note"><strong>Note:</strong> These online shops and business directories are not owned or maintained by Dogecoin or the Dogecoin Foundation. While we are satisfied they are trustworthy, reliable services - please use at your own risk.</h5>
+      </div>
+    </div>
+  </div>
+</div>
 
-    <!-- Site Specific Scripts -->
-    <script src="js/dogecoin.js"></script>
+<div class="modal fade" id="windows-wallet-modal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body text-center">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h2 class="modal-title dogefont">CHOOSE YOUR WALLET.</h2>
+				<br/>
+				<div class="row">
+					<div class="col-md-6">
+						<img src="/imgs/multidoge.png" alt="MultiDoge">
+						<a href="https://github.com/langerhans/multidoge/releases/download/v0.1.2/multidoge-0.1.2-windows-setup.exe">
+							<h4>MultiDoge.</h4>
+						</a>
+						<h5>The Dogecoin Light Wallet.</h5>
+					</div>
+					<div class="col-md-6">
+						<img src="/imgs/dogecoin-300.png" width="150" height="150" alt="Dogecoin Core">
+						<a href="https://github.com/dogecoin/dogecoin/releases/download/1.6/dogecoin-1.6.0.0-win32-setup.exe">
+							<h4>Dogecoin Core.</h4>
+						</a>
+						<h5>The Dogecoin "Full" Wallet.</h5>
+					</div>
+				</div>
+				<h4>Learn how to set up your wallet with the <a href="/getting-started" target="_blank">Getting Started Guide</a>.</h4>
+				<hr>
+				<div class="panel-group">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">What are the differences between the two?</h3>
+						</div>
+						<div class="panel-collapse collapse in">
+							<div class="panel-body">
+								<h4>You have to sync with the blockchain to use Dogecoins. <br/>This means, you need the Dogecoin "ledger" to use Dogecoin.</h4>
+								<h4>MultiDoge is a "light" wallet. It syncs with the blockchain by "skimming" through the blockchain, providing fast sync times.</h4>
+								<h4>Dogecoin Core, on the other hand, is a "full" wallet. It syncs by downloading it, providing a solid-working Dogecoin wallet.</h4>
+							</div>
+						</div>
+					</div>
+					<br/>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Advantages and Disadvantages?</h3>
+						</div>
+						<div class="panel-collapse collapse in">
+							<div class="panel-body">
+								<h4>Both wallets have their advantages and disadvantages.</h4>
+								<h4>MultiDoge is a light wallet, so it only needs to "skim" through the blockchain before it becomes usable. This is done quickly.</h4>
+								<h4>But the wallet should only be for normal use. It <strong>cannot</strong> be used to mine Dogecoins, as the wallet will become slow and unresponsive if used this way.</h4>
+								<h4>Dogecoin Core on the other hand, downloads the entire blockchain. Its initial sync is significantly slower compared to MultiDoge, and it takes up a lot more space.</h4>
+								<h4>But this comes at an advantage. It is safe to mine Dogecoins with this wallet, as it will be able to handle the transactions from payouts.</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
+<div class="modal fade" id="osx-wallet-modal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body text-center">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h2 class="modal-title dogefont">CHOOSE YOUR WALLET.</h2>
+				<br/>
+				<div class="row">
+					<div class="col-md-6">
+						<img src="/imgs/multidoge.png" alt="MultiDoge">
+						<a href="https://github.com/langerhans/multidoge/releases/download/v0.1.2/multidoge-0.1.2.dmg">
+							<h4>MultiDoge.</h4>
+						</a>
+						<h5>The Dogecoin Light Wallet.</h5>
+					</div>
+					<div class="col-md-6">
+						<img src="/imgs/dogecoin-300.png" width="150" height="150" alt="Dogecoin Core">
+						<a href="https://github.com/dogecoin/dogecoin/releases/download/1.6/dogecoin-qt-1_6_0-mac.zip">
+							<h4>Dogecoin Core.</h4>
+						</a>
+						<h5>The Dogecoin "Full" Wallet.</h5>
+					</div>
+				</div>
+				<h4>Learn how to set up your wallet with the <a href="/getting-started" target="_blank">Getting Started Guide</a>.</h4>
+				<hr>
+				<div class="panel-group">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">What are the differences between the two?</h3>
+						</div>
+						<div class="panel-collapse collapse in">
+							<div class="panel-body">
+								<h4>You have to sync with the blockchain to use Dogecoins. <br/>This means, you need the Dogecoin "ledger" to use Dogecoin.</h4>
+								<h4>MultiDoge is a "light" wallet. It syncs with the blockchain by "skimming" through the blockchain, providing fast sync times.</h4>
+								<h4>Dogecoin Core, on the other hand, is a "full" wallet. It syncs by downloading it, providing a solid-working Dogecoin wallet.</h4>
+							</div>
+						</div>
+					</div>
+					<br/>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Advantages and Disadvantages?</h3>
+						</div>
+						<div class="panel-collapse collapse in">
+							<div class="panel-body">
+								<h4>Both wallets have their advantages and disadvantages.</h4>
+								<h4>MultiDoge is a light wallet, so it only needs to "skim" through the blockchain before it becomes usable. This is done quickly.</h4>
+								<h4>But the wallet should only be for normal use. It <strong>cannot</strong> be used to mine Dogecoins, as the wallet will become slow and unresponsive if used this way.</h4>
+								<h4>Dogecoin Core on the other hand, downloads the entire blockchain. Its initial sync is significantly slower compared to MultiDoge, and it takes up a lot more space.</h4>
+								<h4>But this comes at an advantage. It is safe to mine Dogecoins with this wallet, as it will be able to handle the transactions from payouts.</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
-	<!--
-	THESE ADD A LOT OF LOADING TIME TO THE PAGE (ABOUT 2 SECONDS)
-	BUT STILL ARE NEEDED. THESE WILL LOAD AFTER THE VISUAL
-	CONTENT OF THE PAGE IS LOADED
-	-->
-	
-	<!-- AddThis Smart Layers -->
-	<script src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=xa-529f00d46dc73a67" type="text/javascript"></script>
-	<script type="text/javascript">
-	addthis.layers({
-	      'theme' : 'transparent',
-	      'share' : {
-	        'position' : 'left',
-	        'numPreferredServices' : 5
-	      }
-	      
-	    }
-	                  );
-	</script>
-	
-    <!-- Google Translate -->
-    <script type="text/javascript">
-    function googleTranslateElementInit() {
-    new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-28461406-3'}, 'google_translate_element');
+<!-- AddThis Smart Layers -->
+<script src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=xa-529f00d46dc73a67" type="text/javascript"></script>
+<script type="text/javascript">
+addthis.layers({
+      'theme' : 'transparent',
+      'share' : {
+        'position' : 'left',
+        'numPreferredServices' : 5
+      }
+      
     }
-    </script>
-    <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
+                  );
+</script>
+<script src="/js/dogecoin.min.js"></script>
 
 </body>
 </html>
