@@ -1,0 +1,177 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+}
+		
+*:focus {
+	outline: none !important;
+}
+
+p {
+	font-size: 1.6em;
+}
+		
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.4em;
+}
+		
+hr {
+	border-color: grey;
+}
+
+.wallet-button {
+	border-radius: 0px !important;
+}
+
+.note {
+    color: #888;
+}
+
+.border {
+	-webkit-box-shadow: 0px -5px 0px 0px rgba(21, 47, 58, 1);
+	-moz-box-shadow:    0px -5px 0px 0px rgba(21, 47, 58, 1);
+	box-shadow:         0px -5px 0px 0px rgba(21, 47, 58, 1);
+}
+		
+.downloads {
+	font-size: 2em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	padding-bottom: 22px;
+}
+		
+.dogefont {
+	font-family: 'Oswald', sans-serif;
+}
+
+.btn-circle {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 6px 0;
+	font-size: 12px;
+	line-height: 1.428571429;
+	border-radius: 15px;
+}
+		
+.btn-circle.btn-lg {
+	width: 125px;
+	height: 125px;
+	padding: 10px 16px;
+	font-size: 18px;
+	line-height: 1.33;
+	border-radius: 62.5px;
+	border-color: grey;
+	border-size: 10px;
+}
+		
+.btn-circle.btn-xl {
+	width: 180px;
+	height: 180px;	
+	padding: 10px 16px;
+	font-size: 24px;
+	line-height: 1.33;
+	border-radius: 90px;
+	border-color: grey;
+	border-size: 5px;
+}
+
+.btn-md {
+    padding: 7px 14px;
+    font-size: 14px;
+    line-height: normal;
+}
+
+.circle-center {
+	padding-top: 19px;
+}
+
+/* Custom Colored Buttons Begin Here */
+/* Blackberry */
+.btn-blackberry { 
+  color: #ffffff; 
+  background-color: #363636; 
+} 
+ 
+.btn-blackberry:hover, 
+.btn-blackberry:focus, 
+.btn-blackberry:active, 
+.btn-blackberry.active, 
+.open .dropdown-toggle.btn-blackberry { 
+  color: #ffffff; 
+  background-color: #404040; 
+} 
+ 
+.btn-blackberry:active, 
+.btn-blackberry.active, 
+.open .dropdown-toggle.btn-blackberry { 
+  background-image: none; 
+} 
+ 
+.btn-blackberry.disabled, 
+.btn-blackberry[disabled], 
+fieldset[disabled] .btn-blackberry, 
+.btn-blackberry.disabled:hover, 
+.btn-blackberry[disabled]:hover, 
+fieldset[disabled] .btn-blackberry:hover, 
+.btn-blackberry.disabled:focus, 
+.btn-blackberry[disabled]:focus, 
+fieldset[disabled] .btn-blackberry:focus, 
+.btn-blackberry.disabled:active, 
+.btn-blackberry[disabled]:active, 
+fieldset[disabled] .btn-blackberry:active, 
+.btn-blackberry.disabled.active, 
+.btn-blackberry[disabled].active, 
+fieldset[disabled] .btn-blackberry.active { 
+  background-color: #363636; 
+} 
+ 
+.btn-blackberry .badge { 
+  color: #363636; 
+  background-color: #ffffff; 
+}
+
+/* Android */
+.btn-android { 
+  color: #FFFFFF; 
+  background-color: #52C752; 
+} 
+ 
+.btn-android:hover, 
+.btn-android:focus, 
+.btn-android:active, 
+.btn-android.active, 
+.open .dropdown-toggle.btn-android { 
+  color: #FFFFFF; 
+  background-color: #3EBD3E; 
+} 
+ 
+.btn-android:active, 
+.btn-android.active, 
+.open .dropdown-toggle.btn-android { 
+  background-image: none; 
+} 
+ 
+.btn-android.disabled, 
+.btn-android[disabled], 
+fieldset[disabled] .btn-android, 
+.btn-android.disabled:hover, 
+.btn-android[disabled]:hover, 
+fieldset[disabled] .btn-android:hover, 
+.btn-android.disabled:focus, 
+.btn-android[disabled]:focus, 
+fieldset[disabled] .btn-android:focus, 
+.btn-android.disabled:active, 
+.btn-android[disabled]:active, 
+fieldset[disabled] .btn-android:active, 
+.btn-android.disabled.active, 
+.btn-android[disabled].active, 
+fieldset[disabled] .btn-android.active { 
+  background-color: #52C752; 
+} 
+ 
+.btn-android .badge { 
+  color: #52C752; 
+  background-color: #FFFFFF; 
+}
