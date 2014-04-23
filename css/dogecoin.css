@@ -1,6 +1,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	overflow-x: hidden;
+	line-height: normal;
 }
 		
 *:focus {
