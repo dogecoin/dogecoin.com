@@ -177,3 +177,49 @@ fieldset[disabled] .btn-android.active {
   color: #52C752; 
   background-color: #FFFFFF; 
 }
+
+.btn-ios { 
+  color: #FFFFFF; 
+  background-color: #909499; 
+  border-color: #909499; 
+} 
+ 
+.btn-ios:hover, 
+.btn-ios:focus, 
+.btn-ios:active, 
+.btn-ios.active, 
+.open .dropdown-toggle.btn-ios { 
+  color: #FFFFFF; 
+  background-color: #80858A; 
+  border-color: #909499; 
+} 
+ 
+.btn-ios:active, 
+.btn-ios.active, 
+.open .dropdown-toggle.btn-ios { 
+  background-image: none; 
+} 
+ 
+.btn-ios.disabled, 
+.btn-ios[disabled], 
+fieldset[disabled] .btn-ios, 
+.btn-ios.disabled:hover, 
+.btn-ios[disabled]:hover, 
+fieldset[disabled] .btn-ios:hover, 
+.btn-ios.disabled:focus, 
+.btn-ios[disabled]:focus, 
+fieldset[disabled] .btn-ios:focus, 
+.btn-ios.disabled:active, 
+.btn-ios[disabled]:active, 
+fieldset[disabled] .btn-ios:active, 
+.btn-ios.disabled.active, 
+.btn-ios[disabled].active, 
+fieldset[disabled] .btn-ios.active { 
+  background-color: #909499; 
+  border-color: #909499; 
+} 
+ 
+.btn-ios .badge { 
+  color: #909499; 
+  background-color: #FFFFFF; 
+}
