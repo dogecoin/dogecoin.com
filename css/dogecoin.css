@@ -278,7 +278,7 @@ fieldset[disabled] .btn-ios.active {
         height: auto;
     }
 }
-@media (max-width: 979px) {
+@media (max-width: 979px) and (min-height: 674px) {
     /* when the share bar shows up */
     .border {
         margin-bottom: 45px;
