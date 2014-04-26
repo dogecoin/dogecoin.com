@@ -2,6 +2,11 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	overflow-x: hidden;
 	line-height: normal;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }
 		
 *:focus {
@@ -50,10 +55,24 @@ hr {
     color: #888;
 }
 
+.first {
+    height: 100%;
+}
+
 .border {
 	-webkit-box-shadow: 0px -5px 0px 0px rgba(21, 47, 58, 1);
 	-moz-box-shadow:    0px -5px 0px 0px rgba(21, 47, 58, 1);
 	box-shadow:         0px -5px 0px 0px rgba(21, 47, 58, 1);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.more {
+    position: absolute;
+    top: 100%;
+    width: 100%;
 }
 		
 .downloads {
