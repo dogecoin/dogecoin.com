@@ -50,6 +50,10 @@ hr {
     color: #888;
 }
 
+.first {
+    height: 100%;
+}
+
 .border {
 	-webkit-box-shadow: 0px -5px 0px 0px rgba(21, 47, 58, 1);
 	-moz-box-shadow:    0px -5px 0px 0px rgba(21, 47, 58, 1);
@@ -243,4 +247,75 @@ fieldset[disabled] .btn-ios.active {
 .btn-ios .badge { 
   color: #909499; 
   background-color: #FFFFFF; 
+}
+
+@media (max-height: 735px) and (max-width: 810px), (max-height: 630px) and (min-width: 810px) {
+    /* when the content on the first page is too big */
+    div.border {
+        position: initial;
+    }
+
+    div.more {
+        position: initial;
+    }
+
+    div.first {
+        height: auto;
+    }
+
+}
+@media (max-width: 979px) and (min-height: 674px) {
+    /* when the share bar shows up */
+    .border {
+        margin-bottom: 45px;
+    }
+
+    .more {
+        margin-top: -45px;
+    }
+}
+
+@media (max-width: 979px) {
+    /* let the footer be read */
+    footer {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 991px) {
+    /* make the buttons smaller when they're on top of each other */
+    .start-button {
+        zoom: 0.5;
+    }
+
+    /* make them appear in a 2x2 grid instead of on top of each other */
+    .start-container > div {
+        display: inline-block;
+        width: 250px;
+    }
+}
+
+@media (max-height: 1005px) {
+    /* Make the top part take up the whole browser window, but not on large screens.
+       1005px is approximately the height at the end of the large doge logo.  */
+    body {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .border {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .more {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+    }
 }

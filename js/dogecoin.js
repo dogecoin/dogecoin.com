@@ -37,12 +37,17 @@ $(function() {
 });
 
 /* Scroll Button: On Mouseover, Button Fades/Unfades */
-$("#scroll-button").mouseover(function() {
-	$(this).css({ 'opacity' : 0.8 });
+$(".border > div").mouseover(function() {
+	$("#scroll-button").css({ 'opacity' : 0.8 });
 });
-$("#scroll-button").mouseout(function() {
-	$(this).css({ 'opacity' : 1 });
+$(".border > div").mouseout(function() {
+	$("#scroll-button").css({ 'opacity' : 1 });
 });
+
+/* click on whole bar to scroll down */
+$(".border > div").click(function() {
+  $("#scroll-button").click();
+})
 
 /* Tooltip */
 $(function () { $("[data-toggle='tooltip']").tooltip(); });
