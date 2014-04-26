@@ -277,6 +277,7 @@ fieldset[disabled] .btn-ios.active {
     div.first {
         height: auto;
     }
+
 }
 @media (max-width: 979px) and (min-height: 674px) {
     /* when the share bar shows up */
@@ -287,11 +288,29 @@ fieldset[disabled] .btn-ios.active {
     .more {
         margin-top: -45px;
     }
+
+    /* let the footer be read */
+    footer {
+        margin-bottom: 50px;
+    }
 }
 
 @media (max-width: 420px) {
     /* the second video causes a scrollbar */
     #youtube-video iframe {
         width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    /* make the buttons smaller when they're on top of each other */
+    .start-button {
+        zoom: 0.5;
+    }
+
+    /* make them appear in a 2x2 grid instead of on top of each other */
+    .start-container > div {
+        display: inline-block;
+        width: 250px;
     }
 }
