@@ -297,13 +297,6 @@ fieldset[disabled] .btn-ios.active {
     }
 }
 
-@media (max-width: 420px) {
-    /* the second video causes a scrollbar */
-    #youtube-video iframe {
-        width: 100%;
-    }
-}
-
 @media (max-width: 991px) {
     /* make the buttons smaller when they're on top of each other */
     .start-button {
