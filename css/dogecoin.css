@@ -288,7 +288,9 @@ fieldset[disabled] .btn-ios.active {
     .more {
         margin-top: -45px;
     }
+}
 
+@media (max-width: 979px) {
     /* let the footer be read */
     footer {
         margin-bottom: 50px;
