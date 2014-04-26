@@ -21,8 +21,29 @@ hr {
 	border-color: grey;
 }
 
+.watch-video {
+	position: absolute;
+	margin-top: 210px;
+	margin-left: 150px;
+    border: 2px solid #7a6a29;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.watch-video:hover {
+    border: 2px solid #ba9f33;
+}
+
 .wallet-button {
 	border-radius: 0px !important;
+}
+
+.logo {
+    max-width: 300px;
+}
+
+.video {
+    max-width: 528px;
 }
 
 .note {
