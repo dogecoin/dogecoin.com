@@ -263,3 +263,35 @@ fieldset[disabled] .btn-ios.active {
   color: #909499; 
   background-color: #FFFFFF; 
 }
+
+@media (max-height: 735px) and (max-width: 810px), (max-height: 630px) and (min-width: 810px) {
+    /* when the content on the first page is too big */
+    div.border {
+        position: initial;
+    }
+
+    div.more {
+        position: initial;
+    }
+
+    div.first {
+        height: auto;
+    }
+}
+@media (max-width: 979px) {
+    /* when the share bar shows up */
+    .border {
+        margin-bottom: 45px;
+    }
+
+    .more {
+        margin-top: -45px;
+    }
+}
+
+@media (max-width: 420px) {
+    /* the second video causes a scrollbar */
+    #youtube-video iframe {
+        width: 100%;
+    }
+}
