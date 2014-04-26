@@ -1,3 +1,25 @@
+/* YouTube "What is Dogecoin" Video */
+$(document).ready(function() {
+    function onPlayerStateChange(event) {
+        switch(event.data) {
+            case YT.PlayerState.ENDED:
+                $('.logo-container').fadeOut('fast').removeClass('video').addClass('logo').html('<img class="watch-video" src="/imgs/such-video.png" alt="Watch Video"><img src="/imgs/dogecoin-300.png" alt="Dogecoin Logo">').fadeIn('fast');
+                break;
+        }
+    }
+
+    $('body').on('click', '.watch-video', function(){
+        $('.logo-container').removeClass('logo').addClass('video').html('<iframe width="525" height="295" id="youtube-frame" src="http://www.youtube.com/embed/_KVZmS_UO5I?enablejsapi=1&autoplay=1" frameborder="0" allowfullscreen></iframe>').fitVids();
+        new YT.Player('youtube-frame', {
+                events: {
+                    'onStateChange': onPlayerStateChange
+                }
+
+        });
+
+    });
+});
+
 /* Smooth Scroll */
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
