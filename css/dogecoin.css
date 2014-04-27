@@ -1,6 +1,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	overflow-x: hidden;
+	line-height: normal;
 }
 		
 *:focus {
@@ -20,8 +21,29 @@ hr {
 	border-color: grey;
 }
 
+.watch-video {
+	position: absolute;
+	margin-top: 210px;
+	margin-left: 150px;
+    border: 2px solid #7a6a29;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.watch-video:hover {
+    border: 2px solid #ba9f33;
+}
+
 .wallet-button {
 	border-radius: 0px !important;
+}
+
+.logo {
+    max-width: 300px;
+}
+
+.video {
+    max-width: 528px;
 }
 
 .note {
@@ -43,6 +65,7 @@ hr {
 		
 .dogefont {
 	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
 }
 
 .btn-circle {
@@ -173,5 +196,51 @@ fieldset[disabled] .btn-android.active {
  
 .btn-android .badge { 
   color: #52C752; 
+  background-color: #FFFFFF; 
+}
+
+.btn-ios { 
+  color: #FFFFFF; 
+  background-color: #909499; 
+  border-color: #909499; 
+} 
+ 
+.btn-ios:hover, 
+.btn-ios:focus, 
+.btn-ios:active, 
+.btn-ios.active, 
+.open .dropdown-toggle.btn-ios { 
+  color: #FFFFFF; 
+  background-color: #80858A; 
+  border-color: #909499; 
+} 
+ 
+.btn-ios:active, 
+.btn-ios.active, 
+.open .dropdown-toggle.btn-ios { 
+  background-image: none; 
+} 
+ 
+.btn-ios.disabled, 
+.btn-ios[disabled], 
+fieldset[disabled] .btn-ios, 
+.btn-ios.disabled:hover, 
+.btn-ios[disabled]:hover, 
+fieldset[disabled] .btn-ios:hover, 
+.btn-ios.disabled:focus, 
+.btn-ios[disabled]:focus, 
+fieldset[disabled] .btn-ios:focus, 
+.btn-ios.disabled:active, 
+.btn-ios[disabled]:active, 
+fieldset[disabled] .btn-ios:active, 
+.btn-ios.disabled.active, 
+.btn-ios[disabled].active, 
+fieldset[disabled] .btn-ios.active { 
+  background-color: #909499; 
+  border-color: #909499; 
+} 
+ 
+.btn-ios .badge { 
+  color: #909499; 
   background-color: #FFFFFF; 
 }
