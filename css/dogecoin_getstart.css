@@ -38,6 +38,10 @@ hr {
 	font-family: 'Oswald', sans-serif;
 }
 
+.note {
+    color: #888;
+}
+
 .btn-circle {
 	width: 30px;
 	height: 30px;
