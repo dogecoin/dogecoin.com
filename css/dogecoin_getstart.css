@@ -71,6 +71,10 @@ hr {
 .btn-primary {
 	.buttonBackground(@FFFFFF, @3ba4da);
 }
+
+.circle-center {
+	padding-top: 25px;
+}
 		
 .tabs {
 	display: inline-block;
