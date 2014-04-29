@@ -25,9 +25,9 @@ hr {
 	position: absolute;
 	margin-top: 210px;
 	margin-left: 150px;
-    border: 2px solid #7a6a29;
-    border-radius: 2px;
-    cursor: pointer;
+	border: 2px solid #7a6a29;
+	border-radius: 2px;
+	cursor: pointer;
 }
 
 .watch-video:hover {
@@ -65,7 +65,6 @@ hr {
 		
 .dogefont {
 	font-family: 'Oswald', sans-serif;
-	font-weight: bold;
 }
 
 .btn-circle {

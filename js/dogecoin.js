@@ -48,7 +48,7 @@ $("#scroll-button").mouseout(function() {
 $(function () { $("[data-toggle='tooltip']").tooltip(); });
 
 /* FitVids */
-$("#youtube-video").fitVids();
+$(".youtube-video").fitVids();
 
 /* FitText */
 $(".fit-h1").fitText(1, { minFontSize: '32px', maxFontSize: '36px' });
