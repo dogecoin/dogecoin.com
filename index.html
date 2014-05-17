@@ -56,7 +56,7 @@
 		<div class="downloads">
 			<a class="btn btn-md btn-info wallet-button" data-toggle="modal" data-target="#windows-wallet-modal"><span class="fa fa-windows"></span> Windows</a>
 			<a class="btn btn-md btn-default wallet-button" data-toggle="modal" data-target="#osx-wallet-modal"><span class="fa fa-apple"></span> OS X</a> 
-			<a class="btn btn-md btn-primary wallet-button" href="https://github.com/langerhans/multidoge/releases/download/v0.1.2/multidoge-0.1.2-linux.jar"><span class="fa fa-linux"></span> Linux</a>
+			<a class="btn btn-md btn-primary wallet-button" data-toggle="modal" data-target="#linux-wallet-modal"><span class="fa fa-linux"></span> Linux</a>
 			<a class="btn btn-md btn-ios wallet-button" data-toggle="modal" data-target="#ios-wallet-modal"><span class="fa fa-mobile-phone"></span> iOS</a>
 			<a class="btn btn-md btn-android wallet-button" href="https://play.google.com/store/apps/details?id=de.langerhans.wallet" target="_blank"><span class="fa fa-android"></span> Android</a>
 			<a class="btn btn-md btn-blackberry wallet-button" href="http://appworld.blackberry.com/webstore/content/47952864" target="_blank"><span class="icon-blackberry"></span> Blackberry</a>  
@@ -177,14 +177,14 @@
 			<div class="modal-body">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				<h4 class="modal-title dogefont" id="browser-modal-lable">CHOOSE AN ONLINE WALLET:</h4>
-				<h5>Online wallets are the quickest and easiest way to use Dogecoin, but lack the security of storing your wallet on your local computer. <br/><br/>We recommend you only store a small amount of Dogecoin in an online wallet at any time. <br/>There are several secure, browser-based wallets available to choose from:</h5>
+				<h5>Online wallets are the quickest and easiest way to use Dogecoin, but lack the security of storing your wallet on your local computer. <br/><br/>We recommend you only store a small amount of Dogecoin in an online wallet at any time. <br/>There are several browser-based wallets available to choose from:</h5>
 				<ul>
 					<!--<li><a href="https://www.dogevault.com/" target="_blank">DogeVault</a></li>-->
-					<li><a href="https://secure.dogechain.info/wallet" target="_blank">DogeChain Wallet</a></li>
+					<li><a href="https://dogechain.info/wallet" target="_blank">DogeChain Wallet</a></li>
 					<li><a href="https://www.dogeapi.com/" target="_blank">DogeAPI</a></li>
 					<li><a href="https://moolah.io/" target="_blank">Moolah</a></li>
 				</ul>
-				<h5 class="note"><strong>Note:</strong> These online wallets are not owned or maintained by Dogecoin or the Dogecoin Foundation. While we are satisfied they are trustworthy, reliable services - please use at your own risk.</h5>
+				<h5 class="note"><strong>Note:</strong> These online wallets are not owned or maintained by Dogecoin or the Dogecoin Foundation. While we think the entities behind them are trustworthy - please use at your own risk.</h5>
 			</div>
 		</div>
 	</div>
@@ -302,15 +302,18 @@
 				<div class="row">
 					<div class="col-md-6">
 						<img src="/imgs/multidoge.png" alt="MultiDoge">
-						<a href="https://github.com/langerhans/multidoge/releases/download/v0.1.2/multidoge-0.1.2-windows-setup.exe">
+						<a href="http://multidoge.org/?dl=win">
 							<h4>MultiDoge.</h4>
 						</a>
 						<h5>The Dogecoin Light Wallet.</h5>
 					</div>
 					<div class="col-md-6">
 						<img src="/imgs/dogecoin-300.png" width="150" height="150" alt="Dogecoin Core">
-						<a href="https://github.com/dogecoin/dogecoin/releases/download/1.6/dogecoin-1.6.0.0-win32-setup.exe">
-							<h4>Dogecoin Core.</h4>
+						<a href="https://github.com/dogecoin/dogecoin/releases/download/v1.7.0/dogecoin-core-1.7.0-win32-setup.exe">
+							<h4>Dogecoin Core. (32 bit)</h4>
+						</a>
+						<a href="https://github.com/dogecoin/dogecoin/releases/download/v1.7.0/dogecoin-core-1.7.0-win64-setup.exe">
+							<h4>Dogecoin Core. (64 bit)</h4>
 						</a>
 						<h5>The Dogecoin "Full" Wallet.</h5>
 					</div>
@@ -361,15 +364,77 @@
 				<div class="row">
 					<div class="col-md-6">
 						<img src="/imgs/multidoge.png" alt="MultiDoge">
-						<a href="https://github.com/langerhans/multidoge/releases/download/v0.1.2/multidoge-0.1.2.dmg">
+						<a href="http://multidoge.org/?dl=osx">
 							<h4>MultiDoge.</h4>
 						</a>
 						<h5>The Dogecoin Light Wallet.</h5>
 					</div>
 					<div class="col-md-6">
 						<img src="/imgs/dogecoin-300.png" width="150" height="150" alt="Dogecoin Core">
-						<a href="https://github.com/dogecoin/dogecoin/releases/download/1.6/dogecoin-qt-1_6_0-mac.zip">
+						<a href="https://github.com/dogecoin/dogecoin/releases/download/v1.7.0/dogecoin-core-1.7.0-mac.zip">
 							<h4>Dogecoin Core.</h4>
+						</a>
+						<h5>The Dogecoin "Full" Wallet.</h5>
+					</div>
+				</div>
+				<h4>Learn how to set up your wallet with the <a href="/getting-started" target="_blank">Getting Started Guide</a>.</h4>
+				<hr>
+				<div class="panel-group">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">What are the differences between the two?</h3>
+						</div>
+						<div class="panel-collapse collapse in">
+							<div class="panel-body">
+								<h4>You have to sync with the blockchain to use Dogecoin. <br/>This means, you need the Dogecoin "ledger" to use Dogecoin.</h4>
+								<h4>MultiDoge is a "light" wallet. It syncs with the blockchain by "skimming" through the blockchain, providing fast sync times.</h4>
+								<h4>Dogecoin Core, on the other hand, is a "full" wallet. It syncs by downloading it, providing a solid-working Dogecoin wallet.</h4>
+							</div>
+						</div>
+					</div>
+					<br/>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Advantages and Disadvantages?</h3>
+						</div>
+						<div class="panel-collapse collapse in">
+							<div class="panel-body">
+								<h4>Both wallets have their advantages and disadvantages.</h4>
+								<h4>MultiDoge is a light wallet, so it only needs to "skim" through the blockchain before it becomes usable. This is done quickly.</h4>
+								<h4>But the wallet should only be for normal use. It <strong>cannot</strong> be used to mine Dogecoin, as the wallet will become slow and unresponsive if used this way.</h4>
+								<h4>Dogecoin Core on the other hand, downloads the entire blockchain. Its initial sync is significantly slower compared to MultiDoge, and it takes up a lot more space.</h4>
+								<h4>But this comes at an advantage. It is safe to mine Dogecoin with this wallet, as it will be able to handle the transactions from payouts. It will also help maintain the Dogecoin network.</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="linux-wallet-modal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body text-center">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h2 class="modal-title dogefont">CHOOSE YOUR WALLET.</h2>
+				<br/>
+				<div class="row">
+					<div class="col-md-6">
+						<img src="/imgs/multidoge.png" alt="MultiDoge">
+						<a href="http://multidoge.org/?dl=lin">
+							<h4>MultiDoge.</h4>
+						</a>
+						<h5>The Dogecoin Light Wallet.</h5>
+					</div>
+					<div class="col-md-6">
+						<img src="/imgs/dogecoin-300.png" width="150" height="150" alt="Dogecoin Core">
+						<a href="https://github.com/dogecoin/dogecoin/releases/download/v1.7.0/dogecoin-core-1.7.0-linux32.zip">
+							<h4>Dogecoin Core. (32 bit)</h4>
+						</a>
+						<a href="https://github.com/dogecoin/dogecoin/releases/download/v1.7.0/dogecoin-core-1.7.0-linux64.zip">
+							<h4>Dogecoin Core. (64 bit)</h4>
 						</a>
 						<h5>The Dogecoin "Full" Wallet.</h5>
 					</div>
