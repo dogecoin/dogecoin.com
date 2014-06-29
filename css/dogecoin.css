@@ -198,6 +198,8 @@ fieldset[disabled] .btn-android.active {
   background-color: #FFFFFF; 
 }
 
+/* iOS */
+
 .btn-ios { 
   color: #FFFFFF; 
   background-color: #909499; 
@@ -241,5 +243,49 @@ fieldset[disabled] .btn-ios.active {
  
 .btn-ios .badge { 
   color: #909499; 
+  background-color: #FFFFFF; 
+}
+
+/* Windows Phone */
+.btn-windowsphone { 
+  color: #FFFFFF; 
+  background-color: #9B4F96; 
+} 
+ 
+.btn-windowsphone:hover, 
+.btn-windowsphone:focus, 
+.btn-windowsphone:active, 
+.btn-windowsphone.active, 
+.open .dropdown-toggle.btn-windowsphone { 
+  color: #FFFFFF; 
+  background-color: #8A4685; 
+} 
+ 
+.btn-windowsphone:active, 
+.btn-windowsphone.active, 
+.open .dropdown-toggle.btn-windowsphone { 
+  background-image: none; 
+} 
+ 
+.btn-windowsphone.disabled, 
+.btn-windowsphone[disabled], 
+fieldset[disabled] .btn-windowsphone, 
+.btn-windowsphone.disabled:hover, 
+.btn-windowsphone[disabled]:hover, 
+fieldset[disabled] .btn-windowsphone:hover, 
+.btn-windowsphone.disabled:focus, 
+.btn-windowsphone[disabled]:focus, 
+fieldset[disabled] .btn-windowsphone:focus, 
+.btn-windowsphone.disabled:active, 
+.btn-windowsphone[disabled]:active, 
+fieldset[disabled] .btn-windowsphone:active, 
+.btn-windowsphone.disabled.active, 
+.btn-windowsphone[disabled].active, 
+fieldset[disabled] .btn-windowsphone.active { 
+  background-color: #9B4F96; 
+} 
+ 
+.btn-windowsphone .badge { 
+  color: #9B4F96; 
   background-color: #FFFFFF; 
 }
