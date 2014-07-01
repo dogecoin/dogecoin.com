@@ -9,18 +9,18 @@
     \__,_/\____/\__, /\___/\___/\____/_/_/ /_/ 
                /____/                          
 		
-    so markup. very website. wow.	   
+    so markup. very website. wow.
     -->
 	
 	<!-- Meta -->
 	<title>Dogecoin</title>
 	<meta charset="utf-8">
-	<meta content="Dogecoin is an open source peer-to-peer digital currency, favored by Shiba Inus worldwide.." name="description">
+	<meta content="Dogecoin is an open source peer-to-peer digital currency, favored by Shiba Inus worldwide." name="description">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	
 	<!-- Scripts -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/FitText.js/1.1/jquery.fittext.min.js"></script>
 	
 	<!-- HTML5 Shiv -->
@@ -33,7 +33,7 @@
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 	
 	<!-- CSS -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700%7COswald' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,700%7COswald' rel='stylesheet' type='text/css'>
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="/css/font-mfizz/font-mfizz.css" type="text/css"/>
 	<link rel="stylesheet" type="text/css" href="/css/dogecoin.css">
@@ -42,67 +42,71 @@
 
 <body>
 
-<div class="text-center" style="background-color: #f2ede0;">
-	<div style="padding-top: 25px;">
-		<h1 class="dogefont" style="font-size: 5em; line-height: 1em; margin-bottom: 25px;"><strong>DOGECOIN</strong></h1>
-		<div class="logo-container logo center-block">
-			<img class="watch-video" src="/imgs/such-video.png" alt="Watch Video">
-			<img src="/imgs/dogecoin-300.png" alt="Dogecoin Logo">
-		</div>
-		<h4>Dogecoin is an open source peer-to-peer digital currency, favored by Shiba Inus worldwide.</h4>
-		<!-- Buttons -->
-		<h3 class="dogefont" style="display: inline-block; margin-top: 5px;">START USING DOGECOIN TODAY:</h3>
-
-		<div class="downloads">
-			<a class="btn btn-md btn-info wallet-button" data-toggle="modal" data-target="#windows-wallet-modal"><span class="fa fa-windows"></span> Windows</a>
-			<a class="btn btn-md btn-default wallet-button" data-toggle="modal" data-target="#osx-wallet-modal"><span class="fa fa-apple"></span> OS X</a> 
-			<a class="btn btn-md btn-primary wallet-button" data-toggle="modal" data-target="#linux-wallet-modal"><span class="fa fa-linux"></span> Linux</a>
-			<a class="btn btn-md btn-ios wallet-button" data-toggle="modal" data-target="#ios-wallet-modal"><span class="fa fa-mobile-phone"></span> iOS</a>
-			<a class="btn btn-md btn-android wallet-button" href="https://play.google.com/store/apps/details?id=de.langerhans.wallet" target="_blank"><span class="fa fa-android"></span> Android</a>
-			<a class="btn btn-md btn-blackberry wallet-button" href="http://appworld.blackberry.com/webstore/content/47952864" target="_blank"><span class="icon-blackberry"></span> Blackberry</a>  
-			<a class="btn btn-md btn-warning wallet-button" data-toggle="modal" data-target="#browser-modal"><span class="fa fa-cloud"></span> Browser</a>
-			<a class="btn btn-md btn-danger wallet-button" href="https://github.com/dogecoin/dogecoin" target="_blank"><span class="fa fa-github"></span> Source</a>
-		</div>
-		<div class="border" style="background-color: #1e4151;">
-			<div style="padding-bottom: 10px; padding-top: 10px;">
-				<a id="scroll-button" href="#1" title="Click to scroll down"><img src="/imgs/scrolldown.png" width="45" height="45" alt="Scroll Down Button"></a>
+<!-- Header -->
+<div class="text-center bgheader">
+	<div class="padheader">
+		<div class="resp-screen">
+			<h1 class="dogefont dogefont-header">DOGECOIN</h1>
+			<div class="logo-container logo center-block">
+				<img class="watch-video" src="/imgs/such-video.png" alt="Watch Video">
+				<img src="/imgs/dogecoin-300.png" alt="Dogecoin Logo">
 			</div>
+			<h4 class="header-desc">Dogecoin is an open source peer-to-peer digital currency, favored by Shiba Inus worldwide.</h4>
+			
+			<!-- Buttons -->
+			<h3 class="dogefont dogefont-start">START USING DOGECOIN TODAY:</h3>
+			<div class="downloads">
+				<a class="btn btn-md btn-info wallet-button" data-toggle="modal" data-target="#windows-wallet-modal"><span class="fa fa-windows"></span> Windows</a>
+				<a class="btn btn-md btn-default wallet-button" data-toggle="modal" data-target="#osx-wallet-modal"><span class="fa fa-apple"></span> OS X</a> 
+				<a class="btn btn-md btn-primary wallet-button" data-toggle="modal" data-target="#linux-wallet-modal"><span class="fa fa-linux"></span> Linux</a>
+				<a class="btn btn-md btn-ios wallet-button" data-toggle="modal" data-target="#ios-wallet-modal"><span class="fa fa-mobile-phone"></span> iOS</a>
+				<a class="btn btn-md btn-android wallet-button" href="https://play.google.com/store/apps/details?id=de.langerhans.wallet" target="_blank"><span class="fa fa-android"></span> Android</a>
+				<a class="btn btn-md btn-blackberry wallet-button" href="http://appworld.blackberry.com/webstore/content/47952864" target="_blank"><span class="icon-blackberry"></span> Blackberry</a>  
+				<a class="btn btn-md btn-warning wallet-button" data-toggle="modal" data-target="#browser-modal"><span class="fa fa-cloud"></span> Browser</a>
+				<a class="btn btn-md btn-danger wallet-button" href="https://github.com/dogecoin/dogecoin" target="_blank"><span class="fa fa-github"></span> Source</a>
+			</div>
+		</div>
+		
+		<div class="bottombar">
+			<a id="scroll-button" href="#1" title="Click to scroll down"><img src="/imgs/scrolldown.png" width="45" height="45" alt="Scroll Down Button"></a>
 		</div>
 	</div>
 </div>
 
-<div style="background-color: #f6b442;">
+<!-- 1st Info Container -->
+<div class="bginfo-one">
 	<div class="container">
 		<div class="row">
-			<div style="padding-bottom: 20px; padding-top: 25px;">
+			<div class="padinfo-one">
 				<a id="1"></a>
 				<div class="col-md-4 text-center">
 					<img src="/imgs/doge.png" alt="Doge">
 				</div>
-				<div class="col-md-8" style="color: white;">
-					<h1 class="fit-h1"><strong>What is Dogecoin?</strong></h1>
-					<p>Dogecoin is a decentralized, peer-to-peer digital currency that enables you to easily send money online. Think of it as "the internet currency."</p>
-					<h4><a href="/getting-started"><strong>Get Started Now</strong></a> | <a style="cursor: pointer;" data-toggle="modal" data-target="#learnmore-modal"><strong>Learn More</strong></a></h4>
-					<hr style="border-color: white">
-					<h2 class="fit-h2"><strong>What's with the dog on the coin?</strong></h2>
-					<p>"Doge" is our fun, friendly mascot! The Shiba Inu is a Japanese breed of dog that was popularized as an online meme and it represents Dogecoin.</p>
-					<h4 class="fit-h4-2"><a href="http://knowyourmeme.com/memes/doge" target="_blank"><strong>Learn more about Doge</strong></a> | <a href="http://en.wikipedia.org/wiki/Shiba_Inu" target="_blank"><strong>Shiba Inu</strong></a></h4>
+				<div class="col-md-8" class="white-text">
+					<h1 class="fit-h1 white-text"><strong>What is Dogecoin?</strong></h1>
+					<p class="white-text">Dogecoin is a decentralized, peer-to-peer digital currency that enables you to easily send money online. Think of it as "the internet currency."</p>
+					<h4 class="white-text"><a href="/getting-started"><strong>Get Started Now</strong></a> | <a style="cursor: pointer;" data-toggle="modal" data-target="#learnmore-modal"><strong>Learn More</strong></a></h4>
+					<hr class="hr-white">
+					<h2 class="fit-h2 white-text"><strong>What's with Dogecoin and the dog?</strong></h2>
+					<p class="white-text">"Doge" is our fun, friendly mascot! The Shiba Inu is a Japanese breed of dog that was popularized as an online meme and it represents Dogecoin.</p>
+					<h4 class="fit-h4-2 white-text"><a href="http://knowyourmeme.com/memes/doge" target="_blank"><strong>Learn more about Doge</strong></a> | <a href="http://en.wikipedia.org/wiki/Shiba_Inu" target="_blank"><strong>Shiba Inu</strong></a></h4>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
 
-<div style="background-color: #8cc152;">
+<!-- 2nd Info Container -->
+<div class="bginfo-two">
 	<div class="container">
 		<div class="row">
-			<div style="padding-top: 5%;">
-				<div class="col-md-8" style="color: white;">
-					<h1 class="fit-h1"><strong>The fun and friendly internet currency.</strong></h1>
-					<p>Dogecoin sets itself apart from other digital currencies with an amazing, vibrant community made up of friendly folks just like you.</p>
-					<h4 class="fit-h4-1"><a href="http://www.reddit.com/r/dogecoin" target="_blank"><strong>Reddit Community</strong></a> | <a href="http://foundation.dogecoin.com" target="_blank"><strong>Dogecoin Foundation</strong></a></h4>
+			<div class="padinfo-two">
+				<div class="col-md-8">
+					<h1 class="fit-h1 white-text"><strong>The fun and friendly internet currency.</strong></h1>
+					<p class="white-text">Dogecoin sets itself apart from other digital currencies with an amazing, vibrant community made up of friendly folks just like you.</p>
+					<h4 class="fit-h4-1 white-text"><a href="http://www.reddit.com/r/dogecoin" target="_blank"><strong>Reddit Community</strong></a> | <a href="http://foundation.dogecoin.com" target="_blank"><strong>Dogecoin Foundation</strong></a></h4>
 				</div>
-				<div class="col-md-4" style="padding-bottom: 50px;">
+				<div class="col-md-4 youtube-alt">
 					<div class="youtube-video">
 						<iframe style="border:none" width="400" height="225" src="//www.youtube.com/embed/000al7ru3ms" allowfullscreen></iframe>
 					</div>
@@ -112,59 +116,60 @@
 	</div>
 </div>
 
-<div style="background-color: #3ba4da;">
+<!-- 3rd Info Container -->
+<div class="bginfo-three">
 	<div class="container">
 		<div class="row">
-			<div style="padding-bottom: 20px; padding-top: 50px;">
+			<div class="padinfo-three">
 				<div class="col-md-4 text-center">
 					<img src="/imgs/dogecoin_mobilewallet.png" alt="Mobile Wallet" />
 				</div>
-				<div class="col-md-8" style="color: white;">
-					<h1 class="fit-h1"><strong>How to get started with Dogecoin.</strong></h1>
-					<p>Setting up a Dogecoin wallet is as <strong>easy</strong> as 1, 2, 3. Seriously! Check out our Getting Started guide below.</p>
-					<h4><a href="/getting-started" style="color: white;"><strong>Get Started Now</strong></a></h4>
-					<hr style="border-color: white;">
-					<p>Once you're done, join in on the fun as part of our growing community! <br> We're a helpful bunch of people and we'll answer any questions that you throw at us!</p>
-					<h4><a href="http://www.reddit.com/r/dogecoin" style="color: white;"><strong>Reddit Community</strong></a></h4>
+				<div class="col-md-8" class="white-text">
+					<h1 class="fit-h1 white-text"><strong>How to get started with Dogecoin.</strong></h1>
+					<p class="white-text">Setting up a Dogecoin wallet is as <strong>easy</strong> as 1, 2, 3. Seriously! Check out our Getting Started guide below.</p>
+					<h4><a href="/getting-started" class="white-text"><strong>Get Started Now</strong></a></h4>
+					<hr class="hr-white">
+					<p class="white-text">Once you're done, join in on the fun as part of our growing community! <br> We're a helpful bunch of people and we'll answer any questions that you throw at us!</p>
+					<h4><a href="http://www.reddit.com/r/dogecoin" class="white-text"><strong>Reddit Community</strong></a></h4>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
 
-<br/>
-
-<div class="container">
+<!-- Footer -->
+<div class="container footer-padding">
 	<footer>
 		<div class="text-center">
 			<div class="row">
 				<h1 class="fit-h1"><strong>So what are you waiting for?</strong> Start using Dogecoin today!</h1>
 						
-				<div style="padding-top: 15px;">
+				<div class="btn-rowpad">
 					<div class="col-md-3">
-						<a class="btn btn-default btn-circle btn-xl" href="/getting-started"><span class="fa fa-rocket fa-5x circle-center"></span></a>
+						<a class="btn btn-default btn-circle" href="/getting-started"><span class="fa fa-rocket fa-5x circle-center"></span></a>
 						<h3>Getting Started.</h3>
 						<h5>Learn how to use Dogecoin.</h5>
 					</div>
-					<div class="col-md-3">
-						<a class="btn btn-default btn-circle btn-xl" data-toggle="modal" data-target="#community-modal"><span class="fa fa-users fa-5x circle-center"></span></a>
+					<div class="col-md-3 btn-padding">
+						<a class="btn btn-default btn-circle" data-toggle="modal" data-target="#community-modal"><span class="fa fa-users fa-5x circle-center"></span></a>
 						<h3>Community.</h3>
 						<h5>Participate in the community.</h5>
 					</div>
-					<div class="col-md-3">
-						<a class="btn btn-default btn-circle btn-xl" data-toggle="modal" data-target="#exchanges-modal"><span class="fa fa-exchange fa-5x circle-center"></span></a>
+					<div class="col-md-3 btn-padding">
+						<a class="btn btn-default btn-circle" data-toggle="modal" data-target="#exchanges-modal"><span class="fa fa-exchange fa-5x circle-center"></span></a>
 						<h3>Get Dogecoin.</h3>
 						<h5>Find out how to get Dogecoin.</h5>
 					</div>
-					<div class="col-md-3">
-						<a class="btn btn-default btn-circle btn-xl" data-toggle="modal" data-target="#stores-modal"><span class="fa fa-shopping-cart fa-5x circle-center"></span></a>
+					<div class="col-md-3 btn-padding">
+						<a class="btn btn-default btn-circle" data-toggle="modal" data-target="#stores-modal"><span class="fa fa-shopping-cart fa-5x circle-center"></span></a>
 						<h3>Stores.</h3>
 						<h5>Buy with Dogecoin.</h5>
 					</div>
 				</div>
+				
 			</div>
 			<hr>
-			<h5>created by <a href="http://www.ummjackson.com" target="_blank">Jackson Palmer</a> &amp; <a href="https://twitter.com/BillyM2k" target="_blank">Shibetoshi Nakamoto</a>, website design by <a href="http://steamcommunity.com/id/powerlemonz" target="_blank">PowerLemons</a>, logo by <a href="https://twitter.com/christinericks" target="_blank">Christine Ricks</a></h5>
+			<h5>Created by <a href="http://www.ummjackson.com" target="_blank">Jackson Palmer</a> &amp; <a href="https://twitter.com/BillyM2k" target="_blank">Shibetoshi Nakamoto</a>. Website Design by <a href="http://steamcommunity.com/id/powerlemonz" target="_blank">PowerLemons</a>. Logo by <a href="https://twitter.com/christinericks" target="_blank">Christine Ricks</a>.</h5>
 			<h5>© The Ðogecoin Project</h5>
 		</div>
 	</footer>
@@ -251,16 +256,16 @@
 				<h4 class="modal-title dogefont" id="exchanges-modal-lable">GET DOGECOIN:</h4>
 				<h5>There are numerous amounts of ways to get Dogecoin. You can buy them, trade for them, get tipped, "mine" them, and more. They are surprisingly endless! <br/><br/>You can get tipped Dogecoin by participating in <a href="http://www.reddit.com/r/dogecoin">our community</a>. If that's not your style, the easiest way to have your first Dogecoin is to get them from a faucet. <br/><br/>A Faucet is a website which gives you a small amount of Dogecoin for free to introduce you to the currency! All you need is your Dogecoin address. <br/><br/>Here are a couple Dogecoin faucets:</h5>
 				<ul>
-					<li><a href="http://www.dogefaucet.com/" target="_blank">Dogefaucet.com</a> - Enter your address to get free Dogecoin.</li>
+					<li><a href="http://www.dogefaucet.com/" target="_blank">Dogefaucet.com</a> - Enter your address to get some free Dogecoin.</li>
 					<li><a href="http://indogewetrust.com/" target="_blank">InDogeWeTrust.com</a> - Same as Dogefaucet.</li>
-					<li><a href="http://dogec0in.com/" target="_blank">Dogec0in.com</a> - Chat with the community to get free Dogecoin.</li>
+					<li><a href="https://dogechat.net/" target="_blank">Dogechat.net</a> - Chat with the community to get some free Dogecoin.</li>
 				</ul>
 				<h5>You can also buy them or exchange for them with regular money. This is an easy way to get Dogecoin. <br/><br/>Here are some trusted Dogecoin exchanges:</h5>
 				<ul>
 					<li><a href="https://www.vaultofsatoshi.com/" target="_blank">Vault of Satoshi</a> (USD & CAD)</li>
 					<li><a href="https://anxpro.com/" target="_blank">ANXPRO</a> (USD, EUR, GBP, AUD, CAD, HKD, SGD, NZD)</li>
 					<li><a href="https://www.kraken.com/" target="_blank">Kraken</a> (USD, EUR)</li>
-					<li><a href="https://v2.moolah.io/" target="_blank">Prelude.io</a> (USD)</li>
+					<li><a href="https://prelude.io/" target="_blank">Prelude.io</a> (USD)</li>
 					<li><a href="http://www.localdogecoin.com/" target="_blank">LocalDogecoin</a> (A website to purchase Dogecoin locally.)</li>
 				</ul>
 				<h5>You can also get Dogecoin by "mining" it. Mining is when you use your computer to process Dogecoin transactions by other people, and in return you get Dogecoin. <br/><br/>Mining is intended for advanced users only, as it requires a lot of technical knowledge to do. If you are interested, <a href="http://dogecointutorial.com/mining.html" target="_blank">read more here</a>.</h5>
