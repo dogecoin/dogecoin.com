@@ -1,8 +1,9 @@
-function buttons(hash, buttonclick, buttonunclick_1, buttonunclick_2) {
+function buttons(hash, buttonclick, buttonunclick_1, buttonunclick_2, buttonunclick_3) {
 	if(window.location.hash === hash) {
 		$(buttonclick).addClass("selected");
 		$(buttonunclick_1).removeClass("selected");
 		$(buttonunclick_2).removeClass("selected");
+		$(buttonunclick_3).removeClass("selected");
 	}
 }
 
@@ -30,17 +31,21 @@ function os_slide_effect(hash, show) {
 window.onhashchange = function() {
 /* ### Device Selection ### */
 	// Desktop Button
-	buttons("#desktop-wallet", "#desktop-button", "#phone-button", "#online-button");
+	buttons("#desktop-wallet", "#desktop-button", "#phone-button", "#online-button", "paper-button");
 	os_slide_effect("#desktop-wallet", "#select-desktop-os");
 
 	// Phone Button
-	buttons("#phone-wallet", "#phone-button", "#desktop-button", "#online-button");
+	buttons("#phone-wallet", "#phone-button", "#desktop-button", "#online-button", "paper-button");
 	os_slide_effect("#phone-wallet", "#select-mobile-os");
 
 	// Online Button
-	buttons("#online-wallet", "#online-button", "#desktop-button", "#phone-button");
+	buttons("#online-wallet", "#online-button", "#desktop-button", "#phone-button", "paper-button");
 	os_slide_effect("#online-wallet", "#select-online-os");
-		
+    
+	// Paper Button
+	buttons("#paper-wallet", "#paper-button", "#desktop-button", "#phone-button", "#online-button");
+	os_slide_effect("#paper-wallet", "#select-paper-os");
+
 /* ### OS Selection ## */
 // Desktop OS Selection
 	// Windows Button
@@ -72,4 +77,9 @@ window.onhashchange = function() {
 	// Moolah Button
 	buttons("#moolah-online-os", "#moolah-online-os-button", "#dogeapi-online-os-button", undefined);
 	slide_effect("#moolah-online-os", "#moolah-online-os");
+	
+// Paper Wallet Selection
+	// Walletgenerator Button
+	buttons("#walletgenerator-paper-os", "#walletgenerator-paper-os-button", "#walletgenerator-paper-os-button", undefined);
+	slide_effect("#walletgenerator-paper-os", "#walletgenerator-paper-os");
 };
