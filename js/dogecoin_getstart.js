@@ -31,15 +31,15 @@ function os_slide_effect(hash, show) {
 window.onhashchange = function() {
 /* ### Device Selection ### */
 	// Desktop Button
-	buttons("#desktop-wallet", "#desktop-button", "#phone-button", "#online-button", "paper-button");
+	buttons("#desktop-wallet", "#desktop-button", "#phone-button", "#online-button", "#paper-button");
 	os_slide_effect("#desktop-wallet", "#select-desktop-os");
 
 	// Phone Button
-	buttons("#phone-wallet", "#phone-button", "#desktop-button", "#online-button", "paper-button");
+	buttons("#phone-wallet", "#phone-button", "#desktop-button", "#online-button", "#paper-button");
 	os_slide_effect("#phone-wallet", "#select-mobile-os");
 
 	// Online Button
-	buttons("#online-wallet", "#online-button", "#desktop-button", "#phone-button", "paper-button");
+	buttons("#online-wallet", "#online-button", "#desktop-button", "#phone-button", "#paper-button");
 	os_slide_effect("#online-wallet", "#select-online-os");
     
 	// Paper Button
