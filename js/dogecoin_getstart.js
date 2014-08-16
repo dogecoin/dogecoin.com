@@ -80,6 +80,6 @@ window.onhashchange = function() {
 	
 // Paper Wallet Selection
 	// Walletgenerator Button
-	buttons("#walletgenerator-paper-os", "#walletgenerator-paper-os-button", "#walletgenerator-paper-os-button", undefined);
+	buttons("#walletgenerator-paper-os", "#walletgenerator-paper-os-button", undefined, undefined);
 	slide_effect("#walletgenerator-paper-os", "#walletgenerator-paper-os");
 };
