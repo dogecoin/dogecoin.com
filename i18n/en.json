@@ -188,7 +188,7 @@
     "dgc-getting-started-linux-1-3": "Download MultiDoge for Linux",
     "dgc-getting-started-linux-2-0": "2. Set Permissions.",
     "dgc-getting-started-linux-2-1": "Right click on the (.jar) file, click \"Properties\".",
-    "dgc-getting-started-linux-2-3": "Go to the \"Permissions\" tab, check the box next to \"Execute\" to allow executing of the file as a program. Close properties window.",
+    "dgc-getting-started-linux-2-2": "Go to the \"Permissions\" tab, check the box next to \"Execute\" to allow executing of the file as a program. Close properties window.",
     "dgc-getting-started-linux-3-0": "3. Launch as OpenJDK Java!",
     "dgc-getting-started-linux-3-1": "Right click the (.jar) file again, hover over \"Open With\", and then select OpenJDK Java 6 or 7 Runtime.",
     "dgc-getting-started-linux-3-2": "Okay, we might've lied about 1, 2, 3 on Linux. But, we need to explain more compared to other Operating Systems. Sorry!",
