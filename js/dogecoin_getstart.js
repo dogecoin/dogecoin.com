@@ -1,3 +1,7 @@
+$(document).ready(function() {
+    enablei18n();
+});
+
 function buttons(hash, buttonclick, buttonunclick_1, buttonunclick_2, buttonunclick_3) {
 	if(window.location.hash === hash) {
 		$(buttonclick).addClass("selected");
