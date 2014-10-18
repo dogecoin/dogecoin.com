@@ -75,12 +75,8 @@ window.onhashchange = function() {
 	
 // Online Wallet Selection
 	// DogeAPI Button
-	buttons("#dogeapi-online-os", "#dogeapi-online-os-button", "#moolah-online-os-button", undefined);
+	buttons("#dogeapi-online-os", "#dogeapi-online-os-button", undefined);
 	slide_effect("#dogeapi-online-os", "#dogeapi-online-os");
-	
-	// Moolah Button
-	buttons("#moolah-online-os", "#moolah-online-os-button", "#dogeapi-online-os-button", undefined);
-	slide_effect("#moolah-online-os", "#moolah-online-os");
 	
 // Paper Wallet Selection
 	// Walletgenerator Button
