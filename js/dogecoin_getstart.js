@@ -74,6 +74,14 @@ window.onhashchange = function() {
 	slide_effect("#apple-mobile-os", "#apple-mobile-os");
 	
 // Online Wallet Selection
+	// Block.io Button
+	buttons("#blockio-online-os", "#blockio-online-os-button", "#moolah-online-os-button", undefined);
+	slide_effect("#blockio-online-os", "#blockio-online-os");
+	
+	// Moolah Button
+	buttons("#moolah-online-os", "#moolah-online-os-button", "#blockio-online-os-button", undefined);
+	slide_effect("#moolah-online-os", "#moolah-online-os");
+	
 	// DogeAPI Button
 	buttons("#dogeapi-online-os", "#dogeapi-online-os-button", undefined);
 	slide_effect("#dogeapi-online-os", "#dogeapi-online-os");
