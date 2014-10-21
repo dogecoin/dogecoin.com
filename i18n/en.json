@@ -60,7 +60,6 @@
     "dgc-browser-modal-dogechain": "DogeChain Wallet", 
     "dgc-browser-modal-holytransaction": "HolyTransaction", 
     "dgc-browser-modal-blockio": "Block.io", 
-    "dgc-browser-modal-moolah": "Moolah", 
     "dgc-browser-modal-online-disclaimer": "<strong>Note:</strong> These online wallets are not owned or maintained by Dogecoin or the Dogecoin Foundation. While we think the entities behind them are trustworthy - please use at your own risk.", 
     "dgc-ios-wallet-modal-important": "IMPORTANT:", 
     "dgc-ios-wallet-modal-view-only": "MyDoge for iOS can only be used to view wallets.", 
@@ -220,6 +219,7 @@
     "dgc-getting-started-ios-3-4": "Once you have added a wallet, tap the name to view more information, including the wallet address as well as that wallet's balance.",
     "dgc-getting-started-ios-acknowledge": "Photos and iOS Guide made by <a href=\"http://www.reddit.com/user/FlippyDog101\" target=\"_blank\">/u/FlippyDog101</a>. Website made by <a href=\"http://reddit.com/user/PowerLemons\" target=\"_blank\">/u/PowerLemons</a>.",
     "dgc-getting-started-web-warning": "<strong>Note:</strong> For storing large amounts of Dogecoin, desktop wallets are highly recommended as a good security practice.",
+<<<<<<< HEAD
     "dgc-getting-started-web-blockio-1-0": "1. Sign Up on Block.io",
     "dgc-getting-started-web-blockio-1-1": "Click the link below to go to the registration page. <br/>Fill out email and password, then click the Sign Up button.",
     "dgc-getting-started-web-blockio-1-2": "Sign up for a Block.io account here.",
@@ -247,6 +247,17 @@
     "dgc-getting-started-web-moolah-4-1": "Now you have an online Dogecoin wallet at Moolah! <br/>You can use the online wallet to send and receive Dogecoins.",
     "dgc-getting-started-web-moolah-4-2": "On the top, you have your receive address and balance. Below, you have the option to send Dogecoins. On the bottom is your transaction history.",
     "dgc-getting-started-web-moolah-acknowledge": "Photos, Moolah Guide, and Website made by <a href=\"http://reddit.com/user/PowerLemons\" target=\"_blank\">/u/PowerLemons</a>.",
+=======
+    "dgc-getting-started-web-blockio-1-0": "1. Sign Up on DogeAPI.",
+    "dgc-getting-started-web-blockio-1-1": "Click the link below to go to the registration page. <br/>Fill out the necessary details, then click the Register button.",
+    "dgc-getting-started-web-blockio-1-2": "Sign up for a DogeAPI account here.",
+    "dgc-getting-started-web-blockio-2-0": "2. Verify Your Account.",
+    "dgc-getting-started-web-blockio-2-1": "After registering, you will be asked to confirm your account with a verification email.",
+    "dgc-getting-started-web-blockio-2-2": "Go to your email account and click the verification link in the email.",
+    "dgc-getting-started-web-blockio-3-1": "Now you have an online Dogecoin wallet at DogeAPI! <br/>You can use the online wallet to send and receive Dogecoins.",
+    "dgc-getting-started-web-blockio-3-2": "On the top-left, you have the option to send Dogecoins. On the top-right are your receive addresses. On the bottom is your transaction history.",
+    "dgc-getting-started-web-blockio-acknowledge": "Photos, DogeAPI Guide, and Website made by <a href=\"http://reddit.com/user/PowerLemons\" target=\"_blank\">/u/PowerLemons</a>.",
+>>>>>>> 4c4e721d5af65ea3f6da17b7aeea86eeb865c02b
     "dgc-getting-started-paper-note": "<strong>Note:</strong> For long term storage of Dogecoin, paper wallets are highly recommended as a good security practice.",
     "dgc-getting-started-paper-1-0": "1. Go to walletgenerator.net.",
     "dgc-getting-started-paper-1-1": "Click the link below to go to walletgenerator.net.",
