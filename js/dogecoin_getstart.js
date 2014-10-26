@@ -74,9 +74,9 @@ window.onhashchange = function() {
 	slide_effect("#apple-mobile-os", "#apple-mobile-os");
 	
 // Online Wallet Selection
-	// DogeAPI Button
-	buttons("#dogeapi-online-os", "#dogeapi-online-os-button", undefined);
-	slide_effect("#dogeapi-online-os", "#dogeapi-online-os");
+	// Block.io Button
+	buttons("#blockio-online-os", "#blockio-online-os-button", undefined);
+	slide_effect("#blockio-online-os", "#blockio-online-os");
 	
 // Paper Wallet Selection
 	// Walletgenerator Button
