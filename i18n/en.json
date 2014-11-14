@@ -112,7 +112,7 @@
     "dgc-exchanges-modal-kraken": "Kraken", 
     "dgc-exchanges-modal-kraken-desc": " (USD, EUR)", 
     "dgc-exchanges-modal-localdogecoin": "LocalDogecoin",
-    "dgc-exchanges-modal-localdogecoin-desc": "(A website to purchase Dogecoin locally.)",
+    "dgc-exchanges-modal-localdogecoin-desc": " (A website to purchase Dogecoin locally.)",
     "dgc-exchanges-modal-mining": "You can also get Dogecoin by \"mining\" it. Mining is when you use your computer to process Dogecoin transactions by other people, and in return you get Dogecoin.", 
     "dgc-exchanges-modal-mining-howto": "Mining is intended for advanced users only, as it requires a lot of technical knowledge to do. If you are interested, <a href=\"http://dogecointutorial.com/mining.html\" target=\"_blank\">read more here</a>.", 
     "dgc-exchanges-modal-disclaimer": "<strong>Note:</strong> These online faucets and exchanges are not owned or maintained by Dogecoin or the Dogecoin Foundation. While we are satisfied they are trustworthy, reliable services - please use at your own risk.", 
