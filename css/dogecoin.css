@@ -21,12 +21,57 @@ hr {
 	border-color: grey;
 }
 
+a {
+	color: #29A6E6;
+}
+
+a:hover {
+	color: #1B9DE0;
+}
+
+/* Global */
+.white-text {
+	color: #FFFFFF !important;
+}
+		
+.dogefont {
+	font-family: 'Oswald', sans-serif;
+}
+
+.hr-white {
+	border-color: white;
+}
+
+/* Header */
+.bgheader {
+	background-color: #f2ede0;
+}
+
+.padheader {
+	padding-top: 20px;
+}
+
+.dogefont-header {
+	font-size: 5.2em;
+	line-height: 1em;
+	margin-bottom: 18px;
+}
+
+.header-desc {
+	padding-top: 7px;
+}
+
+.dogefont-start {
+	display: inline-block;
+	margin-top: 5px;
+}
+
 .watch-video {
 	position: absolute;
 	margin-top: 210px;
 	margin-left: 150px;
 	border: 2px solid #7a6a29;
-	border-radius: 2px;
+	border-radius: 1px;
 	cursor: pointer;
 }
 
@@ -46,14 +91,11 @@ hr {
     max-width: 528px;
 }
 
-.note {
-    color: #888;
-}
-
-.border {
-	-webkit-box-shadow: 0px -5px 0px 0px rgba(21, 47, 58, 1);
-	-moz-box-shadow:    0px -5px 0px 0px rgba(21, 47, 58, 1);
-	box-shadow:         0px -5px 0px 0px rgba(21, 47, 58, 1);
+.bottombar {
+	background-color: #1e4151;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	margin-top: -4px;
 }
 		
 .downloads {
@@ -62,42 +104,6 @@ hr {
 	font-weight: bold;
 	padding-bottom: 22px;
 }
-		
-.dogefont {
-	font-family: 'Oswald', sans-serif;
-}
-
-.btn-circle {
-	width: 30px;
-	height: 30px;
-	text-align: center;
-	padding: 6px 0;
-	font-size: 12px;
-	line-height: 1.428571429;
-	border-radius: 15px;
-}
-		
-.btn-circle.btn-lg {
-	width: 125px;
-	height: 125px;
-	padding: 10px 16px;
-	font-size: 18px;
-	line-height: 1.33;
-	border-radius: 62.5px;
-	border-color: grey;
-	border-size: 10px;
-}
-		
-.btn-circle.btn-xl {
-	width: 180px;
-	height: 180px;	
-	padding: 10px 16px;
-	font-size: 24px;
-	line-height: 1.33;
-	border-radius: 90px;
-	border-color: grey;
-	border-size: 5px;
-}
 
 .btn-md {
     padding: 7px 14px;
@@ -105,11 +111,89 @@ hr {
     line-height: normal;
 }
 
+/* First Info Container */
+.bginfo-one {
+	background-color: #F2A51F;
+}
+
+.padinfo-one {
+	padding-bottom: 20px;
+	padding-top: 25px;
+}
+
+/* Second Info Container */
+.bginfo-two {
+	background-color: #76C421;
+}
+
+.padinfo-two {
+	padding-top: 5%;
+}
+
+.youtube-alt {
+	padding-bottom: 50px;
+}
+
+/* Third Info Container */
+.bginfo-three {
+	background-color: #019cde;
+}
+
+.padinfo-three {
+	padding-bottom: 20px;
+	padding-top: 50px;
+}
+
+/* Footer */
+.footer-padding {
+	padding-top: 10px;
+}
+		
+.btn-circle {
+	width: 180px;
+	height: 180px;	
+	padding: 10px 16px;
+	font-size: 24px;
+	line-height: 1.33;
+	border-radius: 90px;
+	border-color: grey;
+	text-align: center;
+	border-size: 5px;
+}
+
 .circle-center {
 	padding-top: 19px;
 }
 
-/* Custom Colored Buttons Begin Here */
+.btn-rowpad {
+	padding-top: 15px;
+}
+
+/* Modals */
+.note {
+    color: #888;
+}
+
+.android-apk-margin {
+	margin-top: -3px;
+}
+
+.badge-padding {
+	padding-top: 10px;
+}
+
+.mobile-learn-padding {
+	padding-top: 4px;
+}
+
+/* @media */
+@media (max-width: 767px) {
+	.btn-padding {
+		padding-top: 10px;
+	}
+}
+
+/* Custom Buttons */
 /* Blackberry */
 .btn-blackberry { 
   color: #ffffff; 
@@ -122,7 +206,7 @@ hr {
 .btn-blackberry.active, 
 .open .dropdown-toggle.btn-blackberry { 
   color: #ffffff; 
-  background-color: #404040; 
+  background-color: #303030; 
 } 
  
 .btn-blackberry:active, 

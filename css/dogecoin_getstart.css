@@ -129,6 +129,6 @@ a:active {
 	text-decoration: none;
 }
 		
-.tutorial_slide, #select-online-os, #select-mobile-os {
+.tutorial_slide, #select-online-os, #select-mobile-os , #select-paper-os {
   display:none;
 }
