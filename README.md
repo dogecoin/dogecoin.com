@@ -22,8 +22,8 @@ Extras:
 FitVids, FitText, Font-Awesome, MFizz Fonts, Google Oswald.
 
 ## Can I contribute ?
-Yes you can !
-We created some Guides just for you:
+Yes you can!
+We created some guides just for you:
 
 | [Linux Guide][G1] | [Windows Guide][G2] | *OSX Guide (Coming soon)* |
 |:-----------------:|:-------------------:|:-------------------------:|
