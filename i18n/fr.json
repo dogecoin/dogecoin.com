@@ -134,6 +134,7 @@
     "dgc-windows-wallet-modal-dogecoin-core-32bit": "Dogecoin Core. (32 bit)", 
     "dgc-windows-wallet-modal-dogecoin-core-64bit": "Dogecoin Core. (64 bit)", 
     "dgc-windows-wallet-modal-dogecoin-core-desc": "Le portefeuille «&nbsp;complet&nbsp;» Dogecoin.", 
+    "dgc-windows-wallet-modal-dogecoin-core-guide": "manuel d'utilisation", 
     "dgc-windows-wallet-modal-getting-started": "Apprenez à mettre en place votre portefeuille avec le <a href=\"/getting-started\" target=\"_blank\">Guide de démarrage</a>.", 
     "dgc-windows-wallet-modal-differences": "Quelles sont les différences entre les deux&nbsp;?", 
     "dgc-windows-wallet-modal-sync": "Vous devez vous synchroniser avec la chaîne de blocs pour utiliser le Dogecoin.", 
