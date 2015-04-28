@@ -209,7 +209,6 @@
     "dgc-getting-started-android-3-2": "On the top, you have your Address Book and Settings. <br/>Under it, you have your Dogecoin address on the left, Dogecoin address in the QR code on the right, and your Dogecoin balance.",
     "dgc-getting-started-android-3-3": "On the bottom, you have your transaction history. On the very bottom, you can \"Request Coins\", \"Send Coins\", or scan a QR code with your camera.",
     "dgc-getting-started-android-acknowledge": "Photos made by <a href=\"http://www.reddit.com/u/rugerty100\" target=\"_blank\">/u/rugerty100</a>. Website and Guide made by <a href=\"http://reddit.com/user/PowerLemons\" target=\"_blank\">/u/PowerLemons</a>.",
-    "dgc-getting-started-ios-warning": "<strong>Warning!</strong> MyDoge for iOS can only be used to view wallets. It <strong>cannot</strong> send Dogecoins!",
     "dgc-getting-started-ios-1-1": "On your iPhone, launch the App Store and search for \"Doughwallet\", or click on the badge below to be linked straight to \"Doughwallet\". The app should be the first result.",
     "dgc-getting-started-ios-1-2": "Tap \"Free\", then \"Install\", and enter your iTunes password when prompted. The application will begin to download.",
     "dgc-getting-started-ios-2-0": "2. Wait for the Application to Download.",
