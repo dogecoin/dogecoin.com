@@ -2,7 +2,7 @@
     "@metadata": {
         "authors": [
             "otamaglimmer",
-            "/u/otamaglimmer",
+            "/u/otamaglimmer"
         ],
         "last-updated": "2015-05-04",
         "locale": "es",
@@ -225,7 +225,7 @@
     "dgc-getting-started-web-blockio-1-2": "Registra una cuenta Block.io aquí.",
     "dgc-getting-started-web-blockio-2-0": "2. Elige tu PIN secreto.",
     "dgc-getting-started-web-blockio-2-1": "Crea un PIN secreto que contenga al menos 8 caracteres (Sólo letras y números).",
-    "dgc-getting-started-web-blockio-2-2": "Después haz click en \"Set Secret PIN".\",
+    "dgc-getting-started-web-blockio-2-2": "Después haz click en \"Set Secret PIN\".",
     "dgc-getting-started-web-blockio-3-0": "3. Apunta tu frase secreta.",
     "dgc-getting-started-web-blockio-3-1": "Guarda tu frase secreta en un sitio seguro.",
     "dgc-getting-started-web-blockio-3-2": "Marca la casilla para confirmar que estás al tanto de que si pierdes tu PIN y frase secreta, perderás el acceso a tu cuenta y monedas.<br/>Haz click en el botón \"done\".",
