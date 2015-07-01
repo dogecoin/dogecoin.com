@@ -7,7 +7,7 @@ $(document).ready(function() {
                 break;
         }
     }
-    
+
     enablei18n();
 
     $('body').on('click', '.watch-video', function(){
@@ -57,3 +57,17 @@ $(".fit-h1").fitText(1, { minFontSize: '32px', maxFontSize: '36px' });
 $(".fit-h2").fitText(1.2, { minFontSize: '20px', maxFontSize: '30px' });
 $(".fit-h4-1").fitText(2.2, { minFontSize: '10px', maxFontSize: '18px' });
 $(".fit-h4-2").fitText(2.2, { minFontSize: '16px', maxFontSize: '18px' });
+
+/* Skip Link */
+$(document).ready(function() {
+    $(".skip-link").click(function(event) {
+
+        var skipTo = "#" + this.href.split('#')[1];
+
+        $(skipTo).attr('tabindex', -1).on('blur focusout', function() {
+
+            $(this).removeAttr('tabindex');
+
+        }).focus();
+    });
+});

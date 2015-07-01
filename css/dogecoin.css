@@ -33,6 +33,10 @@ a:focus {
 	outline-offset: -1px;
 }
 
+.btn:active:focus, a:active:focus {
+	outline: 0;
+}
+
 /* Global */
 .white-text {
 	color: #FFFFFF !important;
@@ -330,4 +334,31 @@ fieldset[disabled] .btn-ios.active {
 .btn-ios .badge {
   color: #909499;
   background-color: #FFFFFF;
+}
+
+/* Accessibility */
+.skip-link {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+}
+
+.skip-link:hover,
+.skip-link:active,
+.skip-link:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.3);
+	clip: auto !important;
+	color: #333;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
 }
