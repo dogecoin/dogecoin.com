@@ -108,8 +108,6 @@
     "dgc-exchanges-modal-celery-desc": " (USD)", 
     "dgc-exchanges-modal-anxpro": "ANXPRO", 
     "dgc-exchanges-modal-anxpro-desc": " (USD, EUR, GBP, AUD, CAD, HKD, SGD, NZD)", 
-    "dgc-exchanges-modal-cryptsy": "Cryptsy",
-    "dgc-exchanges-modal-cryptsy-desc": " (USD)",
     "dgc-exchanges-modal-localdogecoin": "LocalDogecoin",
     "dgc-exchanges-modal-localdogecoin-desc": " (Una página web para comprar Dogecoin localmente.)",
     "dgc-exchanges-modal-mining": "También puedes conseguir Dogecoin \"minándolos\". Minanar es cuando usas tu ordenador para procesar las transacciones en Dogecoin de otros usuarios, y a cambio recibes Dogecoins.", 
