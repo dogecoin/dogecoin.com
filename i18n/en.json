@@ -109,8 +109,6 @@
     "dgc-exchanges-modal-celery-desc": " (USD)", 
     "dgc-exchanges-modal-anxpro": "ANXPRO", 
     "dgc-exchanges-modal-anxpro-desc": " (USD, EUR, GBP, AUD, CAD, HKD, SGD, NZD)", 
-    "dgc-exchanges-modal-cryptsy": "Cryptsy",
-    "dgc-exchanges-modal-cryptsy-desc": " (USD)",
     "dgc-exchanges-modal-localdogecoin": "LocalDogecoin",
     "dgc-exchanges-modal-localdogecoin-desc": " (A website to purchase Dogecoin locally.)",
     "dgc-exchanges-modal-mining": "You can also get Dogecoin by \"mining\" it. Mining is when you use your computer to process Dogecoin transactions by other people, and in return you get Dogecoin.", 
