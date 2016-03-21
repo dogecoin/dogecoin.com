@@ -1,4 +1,4 @@
-##Contributing to dogecoin.com (Linux Guide)
+##Contributing to dogecoin.com (Windows Guide)
 
 
 ###Step 1: Set-up a webserver

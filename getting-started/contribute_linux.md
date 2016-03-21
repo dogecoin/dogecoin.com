@@ -3,8 +3,8 @@
 
 
 ###Note:
-This Guide only covers Debian & Ubuntu.
-If you use RHEL, Fedora, Arch, ... you should have enough knowledge to install the packages yourself.
+This guide only covers Debian & Ubuntu.
+If you use RHEL, Fedora, Arch, etc, you should have enough knowledge to install the packages yourself.
 
 ###Step 1: Set-up a webserver
 
@@ -12,9 +12,9 @@ Before you start, you will need a webserver. The most common webservers are **Ap
 
 We'll build and use a LAMP-Stack (**L**inux **A**pache **M**ySQL **P**HP) in our Guide.
 
-First install the needed Packages:
+First install the needed packages:
 
-Open a Terminal and execute:
+Open a terminal and execute:
 
     sudo apt-get install apache2 libapache2-mod-php5 php5 php5-mysql mysql-server 
     
@@ -22,10 +22,10 @@ or
     
     sudo aptitude install apache2 libapache2-mod-php5 php5 php5-mysql mysql-server 
 
-While installing, the Console will ask you to set a password for the mysql user.
-Because this is a local testing system you can set the paswort to something simple like `root` or `1234`.
+While installing, the console will ask you to set a password for the mysql user.
+Because this is a local testing system, you can set the password to something simple like `root` or `1234`.
 
-After the installation finished, open a browser and go to [http://localhost](http://localhost) or http://127.0.0.1.
+After the installation process is finished, open a browser and go to [http://localhost](http://localhost) or http://127.0.0.1.
 
 If you see something like this, everything is ready:
     
@@ -35,7 +35,7 @@ If you see something like this, everything is ready:
 
     The web server software is running but no content has been added, yet.
   
-If you don't see the message above, try to manually start Apache. Open a Terminal and execute:
+If you don't see the message above, try to manually start Apache. Open a terminal and execute:
 
     sudo service apache2 start 
 
@@ -49,7 +49,7 @@ Now you're ready to start :smiley:
 
 To clone the dogecoin.com repository you'll need GIT.
 
-To install GIT open a Terminal and execute:
+To install GIT, open a terminal and execute:
   
     sudo apt-get install git
 

@@ -20,3 +20,13 @@ Bootstrap and jQuery.
 
 Extras:
 FitVids, FitText, Font-Awesome, MFizz Fonts, Google Oswald.
+
+## Can I contribute ?
+Yes you can!
+We created some guides just for you:
+
+| [Windows Guide][G1] | [Linux Guide][G2] | *OSX Guide (Coming soon)* |
+|:-----------------:|:-------------------:|:-------------------------:|
+
+[G1]: https://github.com/dogecoin/dogecoin.com/blob/gh-pages/getting-started/contribute_windows.md
+[G2]: https://github.com/dogecoin/dogecoin.com/blob/gh-pages/getting-started/contribute_linux.md
