@@ -6,6 +6,7 @@ pkg/
 *~
 _site/
 .bundle/
+.idea/
 .DS_Store
 bbin/
 gh-pages/
