@@ -33,6 +33,10 @@ a:hover {
   color: #1b9de0;
 }
 
+a:visited {
+  color: #29a6e6;
+}
+
 /* Global */
 .white-text {
   color: #ffffff !important;
@@ -350,8 +354,9 @@ fieldset[disabled] .btn-ios.active {
   color: grey;
   margin: auto 0.3%;
 }
-.icon-link:after {
+.icon-link:visited {
   text-decoration: none;
+  color: grey !important;
 }
 
 #github-icon-link:hover {
