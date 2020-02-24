@@ -38,6 +38,10 @@ a:hover {
   color: #ffffff !important;
 }
 
+.white-link {
+  text-shadow: 0.5px 0.5px black;
+}
+
 .dogefont {
   font-family: "Oswald", sans-serif;
 }
@@ -160,9 +164,9 @@ a:hover {
   font-size: 24px;
   line-height: 1.33;
   border-radius: 90px;
-  border-color: grey;
+  border: grey 1px solid;
   text-align: center;
-  border-size: 5px;
+  transition-duration: 0.3s;
 }
 
 .circle-center {
@@ -344,14 +348,15 @@ fieldset[disabled] .btn-ios.active {
   text-decoration: none;
   transition-duration: 0.3s;
   color: grey;
+  margin: auto 0.3%;
 }
 .icon-link:after {
   text-decoration: none;
 }
 
 #github-icon-link:hover {
-  color: black;
+  color: #24292e;
 }
 #reddit-icon-link:hover {
-  color: green;
+  color: #FF4500;
 }
