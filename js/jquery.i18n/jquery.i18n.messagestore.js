@@ -12,7 +12,7 @@
  * @licence MIT License
  */
 
-( function ( $, window, undefined ) {
+(function ($, window, undefined) {
 	'use strict';
 
 	var MessageStore = function () {
@@ -45,39 +45,39 @@
 		 * @param {String} locale Language tag
 		 * @return {jQuery.Promise}
 		 */
-		load: function ( source, locale ) {
+		load: function (source, locale) {
 			var key = null,
 				deferred = null,
 				deferreds = [],
 				messageStore = this;
 
-			if ( typeof source === 'string' ) {
+			if (typeof source === 'string') {
 				// This is a URL to the messages file.
-				$.i18n.log( 'Loading messages from: ' + source );
-				deferred = jsonMessageLoader( source )
-					.done( function ( localization ) {
-						messageStore.set( locale, localization );
-					} );
+				$.i18n.log('Loading messages from: ' + source);
+				deferred = jsonMessageLoader(source)
+					.done(function (localization) {
+						messageStore.set(locale, localization);
+					});
 
 				return deferred.promise();
 			}
 
-			if ( locale ) {
+			if (locale) {
 				// source is an key-value pair of messages for given locale
-				messageStore.set( locale, source );
+				messageStore.set(locale, source);
 
 				return $.Deferred().resolve();
 			} else {
 				// source is a key-value pair of locales and their source
-				for ( key in source ) {
-					if ( Object.prototype.hasOwnProperty.call( source, key ) ) {
+				for (key in source) {
+					if (Object.prototype.hasOwnProperty.call(source, key)) {
 						locale = key;
 						// No {locale} given, assume data is a group of languages,
 						// call this function again for each language.
-						deferreds.push( messageStore.load( source[key], locale ) );
+						deferreds.push(messageStore.load(source[key], locale));
 					}
 				}
-				return $.when.apply( $, deferreds );
+				return $.when.apply($, deferreds);
 			}
 
 		},
@@ -88,11 +88,11 @@
 		 * @param locale
 		 * @param messages
 		 */
-		set: function( locale, messages ) {
-			if ( !this.messages[locale] ) {
+		set: function (locale, messages) {
+			if (!this.messages[locale]) {
 				this.messages[locale] = messages;
 			} else {
-				this.messages[locale] = $.extend( this.messages[locale], messages );
+				this.messages[locale] = $.extend(this.messages[locale], messages);
 			}
 		},
 
@@ -102,25 +102,25 @@
 		 * @param messageKey
 		 * @returns {Boolean}
 		 */
-		get: function ( locale, messageKey ) {
+		get: function (locale, messageKey) {
 			return this.messages[locale] && this.messages[locale][messageKey];
 		}
 	};
 
 
-	function jsonMessageLoader( url ) {
+	function jsonMessageLoader(url) {
 		var deferred = $.Deferred();
 
-		$.getJSON( url )
-			.done( deferred.resolve )
-			.fail( function ( jqxhr, settings, exception ) {
-				$.i18n.log( 'Error in loading messages from ' + url + ' Exception: ' + exception );
+		$.getJSON(url)
+			.done(deferred.resolve)
+			.fail(function (jqxhr, settings, exception) {
+				$.i18n.log('Error in loading messages from ' + url + ' Exception: ' + exception);
 				// Ignore 404 exception, because we are handling fallabacks explicitly
 				deferred.resolve();
-		} );
+			});
 
 		return deferred.promise();
 	}
 
-	$.extend( $.i18n.messageStore, new MessageStore() );
-}( jQuery, window ) );
+	$.extend($.i18n.messageStore, new MessageStore());
+}(jQuery, window));

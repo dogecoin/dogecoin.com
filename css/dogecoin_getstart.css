@@ -68,8 +68,7 @@ hr {
   font-size: 24px;
   line-height: 1.33;
   border-radius: 100px;
-  border-color: grey;
-  border-size: 5px;
+  border: grey 1px solid;
 }
 
 .btn-primary {

@@ -1,5 +1,5 @@
 /*global pluralRuleParser */
-( function ( $ ) {
+(function ($) {
 	'use strict';
 
 	var language = {
@@ -270,7 +270,7 @@
 		 *            array List of plural forms
 		 * @return string Correct form for quantifier in this language
 		 */
-		convertPlural: function ( count, forms ) {
+		convertPlural: function (count, forms) {
 			var pluralRules,
 				pluralFormIndex,
 				index,
@@ -278,37 +278,37 @@
 				formCount,
 				form;
 
-			if ( !forms || forms.length === 0 ) {
+			if (!forms || forms.length === 0) {
 				return '';
 			}
 
 			// Handle for Explicit 0= & 1= values
-			for ( index = 0; index < forms.length; index++ ) {
+			for (index = 0; index < forms.length; index++) {
 				form = forms[index];
-				if ( explicitPluralPattern.test( form ) ) {
-					formCount = parseInt( form.substring( 0, form.indexOf( '=' ) ), 10 );
-					if ( formCount === count ) {
-						return ( form.substr( form.indexOf( '=' ) + 1 ) );
+				if (explicitPluralPattern.test(form)) {
+					formCount = parseInt(form.substring(0, form.indexOf('=')), 10);
+					if (formCount === count) {
+						return (form.substr(form.indexOf('=') + 1));
 					}
 					forms[index] = undefined;
 				}
 			}
 
-			forms = $.map( forms, function ( form ) {
-				if ( form !== undefined ) {
+			forms = $.map(forms, function (form) {
+				if (form !== undefined) {
 					return form;
 				}
-			} );
+			});
 
 			pluralRules = this.pluralRules[$.i18n().locale];
 
-			if ( !pluralRules ) {
+			if (!pluralRules) {
 				// default fallback.
-				return ( count === 1 ) ? forms[0] : forms[1];
+				return (count === 1) ? forms[0] : forms[1];
 			}
 
-			pluralFormIndex = this.getPluralForm( count, pluralRules );
-			pluralFormIndex = Math.min( pluralFormIndex, forms.length - 1 );
+			pluralFormIndex = this.getPluralForm(count, pluralRules);
+			pluralFormIndex = Math.min(pluralFormIndex, forms.length - 1);
 
 			return forms[pluralFormIndex];
 		},
@@ -320,14 +320,14 @@
 		 * @param pluralRules
 		 * @return plural form index
 		 */
-		getPluralForm: function ( number, pluralRules ) {
+		getPluralForm: function (number, pluralRules) {
 			var i,
-				pluralForms = [ 'zero', 'one', 'two', 'few', 'many', 'other' ],
+				pluralForms = ['zero', 'one', 'two', 'few', 'many', 'other'],
 				pluralFormIndex = 0;
 
-			for ( i = 0; i < pluralForms.length; i++ ) {
-				if ( pluralRules[pluralForms[i]] ) {
-					if ( pluralRuleParser( pluralRules[pluralForms[i]], number ) ) {
+			for (i = 0; i < pluralForms.length; i++) {
+				if (pluralRules[pluralForms[i]]) {
+					if (pluralRuleParser(pluralRules[pluralForms[i]], number)) {
 						return pluralFormIndex;
 					}
 
@@ -344,43 +344,43 @@
 		 * @param {number} num Value to be converted
 		 * @param {boolean} integer Convert the return value to an integer
 		 */
-		'convertNumber': function ( num, integer ) {
+		'convertNumber': function (num, integer) {
 			var tmp, item, i,
 				transformTable, numberString, convertedNumber;
 
 			// Set the target Transform table:
-			transformTable = this.digitTransformTable( $.i18n().locale );
+			transformTable = this.digitTransformTable($.i18n().locale);
 			numberString = '' + num;
 			convertedNumber = '';
 
-			if ( !transformTable ) {
+			if (!transformTable) {
 				return num;
 			}
 
 			// Check if the restore to Latin number flag is set:
-			if ( integer ) {
-				if ( parseFloat( num, 10 ) === num ) {
+			if (integer) {
+				if (parseFloat(num, 10) === num) {
 					return num;
 				}
 
 				tmp = [];
 
-				for ( item in transformTable ) {
+				for (item in transformTable) {
 					tmp[transformTable[item]] = item;
 				}
 
 				transformTable = tmp;
 			}
 
-			for ( i = 0; i < numberString.length; i++ ) {
-				if ( transformTable[numberString[i]] ) {
+			for (i = 0; i < numberString.length; i++) {
+				if (transformTable[numberString[i]]) {
 					convertedNumber += transformTable[numberString[i]];
 				} else {
 					convertedNumber += numberString[i];
 				}
 			}
 
-			return integer ? parseFloat( convertedNumber, 10 ) : convertedNumber;
+			return integer ? parseFloat(convertedNumber, 10) : convertedNumber;
 		},
 
 		/**
@@ -393,7 +393,7 @@
 		 * @param form {String}
 		 * @return {String}
 		 */
-		convertGrammar: function ( word, form ) { /*jshint unused: false */
+		convertGrammar: function (word, form) { /*jshint unused: false */
 			return word;
 		},
 
@@ -411,24 +411,24 @@
 		 *
 		 * @return string
 		 */
-		'gender': function ( gender, forms ) {
-			if ( !forms || forms.length === 0 ) {
+		'gender': function (gender, forms) {
+			if (!forms || forms.length === 0) {
 				return '';
 			}
 
-			while ( forms.length < 2 ) {
-				forms.push( forms[forms.length - 1] );
+			while (forms.length < 2) {
+				forms.push(forms[forms.length - 1]);
 			}
 
-			if ( gender === 'male' ) {
+			if (gender === 'male') {
 				return forms[0];
 			}
 
-			if ( gender === 'female' ) {
+			if (gender === 'female') {
 				return forms[1];
 			}
 
-			return ( forms.length === 3 ) ? forms[2] : forms[0];
+			return (forms.length === 3) ? forms[2] : forms[0];
 		},
 
 		/**
@@ -438,7 +438,7 @@
 		 * @returns {Array|boolean} List of digits in the passed language or false
 		 * representation, or boolean false if there is no information.
 		 */
-		digitTransformTable: function ( language ) {
+		digitTransformTable: function (language) {
 			var tables = {
 				ar: '٠١٢٣٤٥٦٧٨٩',
 				fa: '۰۱۲۳۴۵۶۷۸۹',
@@ -457,15 +457,15 @@
 				bo: '༠༡༢༣༤༥༦༧༨༩' //FIXME use iso 639 codes
 			};
 
-			if ( !tables[language] ) {
+			if (!tables[language]) {
 				return false;
 			}
 
-			return tables[language].split( '' );
+			return tables[language].split('');
 		}
 	};
 
-	$.extend( $.i18n.languages, {
+	$.extend($.i18n.languages, {
 		'default': language
-	} );
-}( jQuery ) );
+	});
+}(jQuery));
