@@ -13,7 +13,7 @@
  * @licence MIT License
  */
 
-( function ( $ ) {
+(function ($) {
 	'use strict';
 
 	var nav, I18N,
@@ -22,9 +22,9 @@
 	 * @constructor
 	 * @param {Object} options
 	 */
-	I18N = function ( options ) {
+	I18N = function (options) {
 		// Load defaults
-		this.options = $.extend( {}, I18N.defaults, options );
+		this.options = $.extend({}, I18N.defaults, options);
 
 		this.parser = this.options.parser;
 		this.locale = this.options.locale;
@@ -54,30 +54,30 @@
 				locale = i18n.locale;
 				fallbackIndex = 0;
 
-				while ( locale ) {
+				while (locale) {
 					// Iterate through locales starting at most-specific until
 					// localization is found. As in fi-Latn-FI, fi-Latn and fi.
-					localeParts = locale.split( '-' );
+					localeParts = locale.split('-');
 					localePartIndex = localeParts.length;
 
 					do {
-						tryingLocale = localeParts.slice( 0, localePartIndex ).join( '-' );
-						message = i18n.messageStore.get( tryingLocale, value );
+						tryingLocale = localeParts.slice(0, localePartIndex).join('-');
+						message = i18n.messageStore.get(tryingLocale, value);
 
-						if ( message ) {
+						if (message) {
 							return message;
 						}
 
 						localePartIndex--;
-					} while ( localePartIndex );
+					} while (localePartIndex);
 
-					if ( locale === 'en' ) {
+					if (locale === 'en') {
 						break;
 					}
 
-					locale = ( $.i18n.fallbacks[i18n.locale] && $.i18n.fallbacks[i18n.locale][fallbackIndex] ) ||
+					locale = ($.i18n.fallbacks[i18n.locale] && $.i18n.fallbacks[i18n.locale][fallbackIndex]) ||
 						i18n.options.fallbackLocale;
-					$.i18n.log( 'Trying fallback locale for ' + i18n.locale + ': ' + locale );
+					$.i18n.log('Trying fallback locale for ' + i18n.locale + ': ' + locale);
 
 					fallbackIndex++;
 				}
@@ -91,7 +91,7 @@
 		 * Destroy the i18n instance.
 		 */
 		destroy: function () {
-			$.removeData( document, 'i18n' );
+			$.removeData(document, 'i18n');
 		},
 
 		/**
@@ -136,22 +136,22 @@
 		 * @param {String} locale Language tag
 		 * @returns {jQuery.Promise}
 		 */
-		load: function ( source, locale ) {
+		load: function (source, locale) {
 			var fallbackLocales, locIndex, fallbackLocale, sourceMap = {};
 
-			if ( typeof source === 'string'	&&
+			if (typeof source === 'string' &&
 				source.split('.').pop() !== 'json'
 			) {
 				sourceMap[locale] = source + '/' + locale + '.json';
-				fallbackLocales = ( $.i18n.fallbacks[locale] || [] )
-					.concat( this.options.fallbackLocale );
-				for ( locIndex in fallbackLocales ) {
+				fallbackLocales = ($.i18n.fallbacks[locale] || [])
+					.concat(this.options.fallbackLocale);
+				for (locIndex in fallbackLocales) {
 					fallbackLocale = fallbackLocales[locIndex];
 					sourceMap[fallbackLocale] = source + '/' + fallbackLocale + '.json';
 				}
-				return this.load( sourceMap );
+				return this.load(sourceMap);
 			} else {
-				return this.messageStore.load( source, locale );
+				return this.messageStore.load(source, locale);
 			}
 
 		},
@@ -163,16 +163,16 @@
 		 * @param {Array} parameters Message parameters
 		 * @return {string}
 		 */
-		parse: function ( key, parameters ) {
+		parse: function (key, parameters) {
 			var message = key.toLocaleString();
 			// FIXME: This changes the state of the I18N object,
 			// should probably not change the 'this.parser' but just
 			// pass it to the parser.
 			this.parser.language = $.i18n.languages[$.i18n().locale] || $.i18n.languages['default'];
-			if( message === '' ) {
+			if (message === '') {
 				message = key;
 			}
-			return this.parser.parse( message, parameters );
+			return this.parser.parse(message, parameters);
 		}
 	};
 
@@ -185,9 +185,9 @@
 	 * @return {string|$.I18N} Parsed message, or if no key was given
 	 * the instance of $.I18N is returned.
 	 */
-	$.i18n = function ( key, param1 ) {
+	$.i18n = function (key, param1) {
 		var parameters,
-			i18n = $.data( document, 'i18n' ),
+			i18n = $.data(document, 'i18n'),
 			options = typeof key === 'object' && key;
 
 		// If the locale option for this call is different then the setup so far,
@@ -197,23 +197,23 @@
 		// by the `new I18N` construction below.
 		// NOTE: It should only change language for this one call.
 		// Then cache instances of I18N somewhere.
-		if ( options && options.locale && i18n && i18n.locale !== options.locale ) {
+		if (options && options.locale && i18n && i18n.locale !== options.locale) {
 			String.locale = i18n.locale = options.locale;
 		}
 
-		if ( !i18n ) {
-			i18n = new I18N( options );
-			$.data( document, 'i18n', i18n );
+		if (!i18n) {
+			i18n = new I18N(options);
+			$.data(document, 'i18n', i18n);
 		}
 
-		if ( typeof key === 'string' ) {
-			if ( param1 !== undefined ) {
-				parameters = slice.call( arguments, 1 );
+		if (typeof key === 'string') {
+			if (param1 !== undefined) {
+				parameters = slice.call(arguments, 1);
 			} else {
 				parameters = [];
 			}
 
-			return i18n.parse( key, parameters );
+			return i18n.parse(key, parameters);
 		} else {
 			// FIXME: remove this feature/bug.
 			return i18n;
@@ -221,29 +221,29 @@
 	};
 
 	$.fn.i18n = function () {
-		var i18n = $.data( document, 'i18n' );
+		var i18n = $.data(document, 'i18n');
 
-		if ( !i18n ) {
+		if (!i18n) {
 			i18n = new I18N();
-			$.data( document, 'i18n', i18n );
+			$.data(document, 'i18n', i18n);
 		}
 		String.locale = i18n.locale;
-		return this.each( function () {
-			var $this = $( this ),
-				messageKey = $this.data( 'i18n' );
+		return this.each(function () {
+			var $this = $(this),
+				messageKey = $this.data('i18n');
 
-			if ( messageKey ) {
-				$this.text( i18n.parse( messageKey ) );
+			if (messageKey) {
+				$this.text(i18n.parse(messageKey));
 			} else {
-				$this.find( '[data-i18n]' ).i18n();
+				$this.find('[data-i18n]').i18n();
 			}
-		} );
+		});
 	};
 
-	String.locale = String.locale || $( 'html' ).attr( 'lang' );
+	String.locale = String.locale || $('html').attr('lang');
 
-	if ( !String.locale ) {
-		if ( typeof window.navigator !== undefined ) {
+	if (!String.locale) {
+		if (typeof window.navigator !== undefined) {
 			nav = window.navigator;
 			String.locale = nav.language || nav.userLanguage || '';
 		} else {
@@ -255,19 +255,19 @@
 	$.i18n.messageStore = $.i18n.messageStore || {};
 	$.i18n.parser = {
 		// The default parser only handles variable substitution
-		parse: function ( message, parameters ) {
-			return message.replace( /\$(\d+)/g, function ( str, match ) {
-				var index = parseInt( match, 10 ) - 1;
+		parse: function (message, parameters) {
+			return message.replace(/\$(\d+)/g, function (str, match) {
+				var index = parseInt(match, 10) - 1;
 				return parameters[index] !== undefined ? parameters[index] : '$' + match;
-			} );
+			});
 		},
 		emitter: {}
 	};
 	$.i18n.fallbacks = {};
 	$.i18n.debug = false;
-	$.i18n.log = function ( /* arguments */ ) {
-		if ( window.console && $.i18n.debug ) {
-			window.console.log.apply( window.console, arguments );
+	$.i18n.log = function ( /* arguments */) {
+		if (window.console && $.i18n.debug) {
+			window.console.log.apply(window.console, arguments);
 		}
 	};
 	/* Static members */
@@ -280,4 +280,4 @@
 
 	// Expose constructor
 	$.i18n.constructor = I18N;
-}( jQuery ) );
+}(jQuery));

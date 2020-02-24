@@ -1,9 +1,9 @@
-$(document).ready(function() {
-    enablei18n();
+$(document).ready(function () {
+	enablei18n();
 });
 
 function buttons(hash, buttonclick, buttonunclick_1, buttonunclick_2, buttonunclick_3) {
-	if(window.location.hash === hash) {
+	if (window.location.hash === hash) {
 		$(buttonclick).addClass("selected");
 		$(buttonunclick_1).removeClass("selected");
 		$(buttonunclick_2).removeClass("selected");
@@ -12,28 +12,28 @@ function buttons(hash, buttonclick, buttonunclick_1, buttonunclick_2, buttonuncl
 }
 
 function slide_effect(hash, show) {
-	if(window.location.hash === hash) {
-		$(".tutorial_slide:not(show)").hide('slide', {direction: 'right'}, 500).promise().done(function() {
-			$(show).show('slide', {direction: 'left'}, 500);
+	if (window.location.hash === hash) {
+		$(".tutorial_slide:not(show)").hide('slide', { direction: 'right' }, 500).promise().done(function () {
+			$(show).show('slide', { direction: 'left' }, 500);
 		});
 	}
 }
 
 function os_slide_effect(hash, show) {
-	if(window.location.hash === hash) {
+	if (window.location.hash === hash) {
 		$(".buttons").removeClass("selected");
 		$(function () {
-			$(".tutorial_slide").hide('slide', {direction: 'right'}, 500);
-			$(".os_slide:not(show)").hide('slide', {direction: 'right'}, 500).promise().done(function() {
-				$(show).show('slide', {direction: 'left'}, 500);
+			$(".tutorial_slide").hide('slide', { direction: 'right' }, 500);
+			$(".os_slide:not(show)").hide('slide', { direction: 'right' }, 500).promise().done(function () {
+				$(show).show('slide', { direction: 'left' }, 500);
 			});
 		});
 	}
 }
 
 // Selection Buttons
-window.onhashchange = function() {
-/* ### Device Selection ### */
+window.onhashchange = function () {
+	/* ### Device Selection ### */
 	// Desktop Button
 	buttons("#desktop-wallet", "#desktop-button", "#phone-button", "#online-button", "#paper-button");
 	os_slide_effect("#desktop-wallet", "#select-desktop-os");
@@ -45,13 +45,13 @@ window.onhashchange = function() {
 	// Online Button
 	buttons("#online-wallet", "#online-button", "#desktop-button", "#phone-button", "#paper-button");
 	os_slide_effect("#online-wallet", "#select-online-os");
-    
+
 	// Paper Button
 	buttons("#paper-wallet", "#paper-button", "#desktop-button", "#phone-button", "#online-button");
 	os_slide_effect("#paper-wallet", "#select-paper-os");
 
-/* ### OS Selection ## */
-// Desktop OS Selection
+	/* ### OS Selection ## */
+	// Desktop OS Selection
 	// Windows Button
 	buttons("#windows-desktop-os", "#windows-desktop-os-button", "#apple-desktop-os-button", "#linux-desktop-os-button");
 	slide_effect("#windows-desktop-os", "#windows-desktop-os");
@@ -63,22 +63,22 @@ window.onhashchange = function() {
 	// Linux Button
 	buttons("#linux-desktop-os", "#linux-desktop-os-button", "#windows-desktop-os-button", "#apple-desktop-os-button");
 	slide_effect("#linux-desktop-os", "#linux-desktop-os");
-		
-// Phone OS Selection
+
+	// Phone OS Selection
 	// Android Button
 	buttons("#android-mobile-os", "#android-mobile-os-button", "#apple-mobile-os-button", undefined);
 	slide_effect("#android-mobile-os", "#android-mobile-os");
-	
+
 	// iOS Button
 	buttons("#apple-mobile-os", "#apple-mobile-os-button", "#android-mobile-os-button", undefined);
 	slide_effect("#apple-mobile-os", "#apple-mobile-os");
-	
-// Online Wallet Selection
+
+	// Online Wallet Selection
 	// Block.io Button
 	buttons("#blockio-online-os", "#blockio-online-os-button", undefined);
 	slide_effect("#blockio-online-os", "#blockio-online-os");
-	
-// Paper Wallet Selection
+
+	// Paper Wallet Selection
 	// Walletgenerator Button
 	buttons("#walletgenerator-paper-os", "#walletgenerator-paper-os-button", undefined, undefined);
 	slide_effect("#walletgenerator-paper-os", "#walletgenerator-paper-os");
