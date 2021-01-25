@@ -1,12 +1,12 @@
-##Contributing to dogecoin.com (Linux Guide)
+## Contributing to dogecoin.com (Linux Guide)
 
 
 
-###Note:
+### Note:
 This guide only covers Debian & Ubuntu.
 If you use RHEL, Fedora, Arch, etc, you should have enough knowledge to install the packages yourself.
 
-###Step 1: Set-up a webserver
+### Step 1: Set-up a webserver
 
 Before you start, you will need a webserver. The most common webservers are **Apache** and **NGINX**.
 
@@ -25,7 +25,7 @@ or
 While installing, the console will ask you to set a password for the mysql user.
 Because this is a local testing system, you can set the password to something simple like `root` or `1234`.
 
-After the installation process is finished, open a browser and go to [http://localhost](http://localhost) or http://127.0.0.1.
+After the installation process is finished, open a browser and go to [http://localhost](http://localhost) or [http://127.0.0.1](#).
 
 If you see something like this, everything is ready:
     
@@ -45,7 +45,7 @@ or
     
 Now you're ready to start :smiley:
 
-##Step 2: Clone the dogecoin.com repo
+## Step 2: Clone the dogecoin.com repo
 
 To clone the dogecoin.com repository you'll need GIT.
 
@@ -79,7 +79,7 @@ Now clone the repo (cloning will create the subdirectory `dogecoin`)
 
     git clone https://github.com/dogecoin/dogecoin.com.git dogecoin
     
-##Step 3: Happy Coding :)
+## Step 3: Happy Coding :)
 
 Now you have a working copy of [dogecoin.com](http://dogecoin.com) at [http://127.0.0.1/dogecoin](http://127.0.0.1/dogecoin).
 

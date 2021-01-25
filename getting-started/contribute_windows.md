@@ -1,13 +1,13 @@
-##Contributing to dogecoin.com (Windows Guide)
+## Contributing to dogecoin.com (Windows Guide)
 
 
-###Step 1: Set-up a webserver
+### Step 1: Set-up a webserver
 
 Before you start, you will need a webserver. The most common webservers are **Apache** and **NGINX**.
 
 We'll use XAMPP (**X** **A**pache **M**ySQL **P**HP **P**erl) in this guide.
 
-First go to http://apachefriends.org and download XAMPP.
+First go to [apachefriends.org](http://apachefriends.org) and download XAMPP.
 
 ![Screenshot](http://i.imgur.com/661Em5t.jpg)
 
@@ -25,12 +25,12 @@ If you see something like this, everything is ready:
 
 Now you're ready to start :smiley:
 
-##Step 2: Getting the source
+## Step 2: Getting the source
 
 [Click here](https://github.com/dogecoin/dogecoin.com/archive/gh-pages.zip) to download the latest source.
 Extract the archive to `C:\xampp\htdocs\` and rename the folder `dogecoin.com-gh-pages` to `dogecoin`.
 
-##Step 3: Happy Coding :)
+## Step 3: Happy Coding :)
 
 Now you have a working copy of [dogecoin.com](http://dogecoin.com) at [http://127.0.0.1/dogecoin](http://127.0.0.1/dogecoin).
 
