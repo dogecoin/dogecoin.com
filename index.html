@@ -86,6 +86,8 @@
 	<link rel="stylesheet" href="/css/font-mfizz/font-mfizz.css" type="text/css"/>
 	<link rel="stylesheet" type="text/css" href="/css/dogecoin.css">
 
+	<link rel="manifest" href="/manifest.json">
+
 </head>
 
 <body>
@@ -576,6 +578,13 @@ addthis.layers({
                   );
 </script>
 <script src="/js/dogecoin.min.js"></script>
+<script>
+	if('serviceWorker' in navigator) {
+	navigator.serviceWorker
+			.register('/sw.js')
+			.then(function() { console.log("Service Worker Registered"); });
+	}
+</script>
 
 </body>
 </html>
