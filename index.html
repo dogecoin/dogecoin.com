@@ -13,7 +13,7 @@
     -->
 
 	<!-- Meta -->
-	<title>Dogecoin - #dogecoin - #doge</title>
+	<title>Dogecoin - Open source peer to peer digital currency</title>
 	<meta charset="utf-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -32,6 +32,10 @@
 	<meta property="og:image:alt" contect="dogecoin.com Shiba Inu" />
 
 	<!-- Twitter Card -->
+
+	<!-- specifying separate twitter cards allows for finer control on how  -->
+	<!-- the card appears on twitter also with added future proofing -->
+
 	<meta name="twitter:card" content='summary_large_image' />
 	<meta name="twitter:site" content="@dogecoin" />
 	<meta name="twitter:creator" content="@dogecoin_dev" />
@@ -41,7 +45,7 @@
 	<meta name="twitter:image" content="/imgs/doge-ogimage.png" />
 	<meta name="twitter:image:alt" contect="dogecoin.com Shiba Inu" />
 	<!--- favicon -->
-	<link rel="shortcut icon" href="../imgs/avatar.png" />
+	<link rel="shortcut icon" href="/imgs/avatar.png" />
 
 	<!-- Scripts -->
 	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
@@ -559,7 +563,6 @@
 	  m.parentNode.insertBefore(a,m)
 	}
 	)(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
 	ga('create', 'UA-28461406-3', 'dogecoin.com');
 	ga('send', 'pageview');
 </script>
@@ -578,13 +581,16 @@ addthis.layers({
                   );
 </script>
 <script src="/js/dogecoin.min.js"></script>
+{% comment %} 
+<!-- to be added as and when needed -->
 <script>
 	if('serviceWorker' in navigator) {
 	navigator.serviceWorker
 			.register('/sw.js')
 			.then(function() { console.log("Service Worker Registered"); });
 	}
-</script>
+</script> 
+{% endcomment %}
 
 </body>
 </html>
