@@ -145,7 +145,7 @@
     "dgc-windows-wallet-modal-dogecoin-core-pro": "Pero también tiene sus ventajas. Es seguro minar Dogecoin con este monedero, ya que será capaz de manejar el volumen de transacciones de los pagos. Además, ayudará a mantener la red Dogecoin.", 
     "dgc-osx-wallet-modal-dogecoin-core": "Dogecoin Core.", 
 	"dgc-android-wallet-modal-title": "DESCARGA DESDE GOOGLE PLAY.",
-    "dgc-android-wallet-modal-apk": "<a href=\"https://github.com/langerhans/dogecoin-wallet-new/releases/download/1.08/wallet-1.08-aligned.apk\">Descarga el APK directamente.</a>",
+    "dgc-android-wallet-modal-apk": "Descarga el APK directamente.",
 	"dgc-ios-wallet-modal-title": "DESCARGA DESDE LA APP STORE.",
     "dgc-getting-started-title": "COMENZANDO",
     "dgc-getting-started-desc": "Comenzando con Dogecoin",

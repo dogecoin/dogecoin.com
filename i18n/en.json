@@ -148,7 +148,7 @@
     "dgc-windows-wallet-modal-dogecoin-core-pro": "But this comes at an advantage. It is safe to mine Dogecoin with this wallet, as it will be able to handle the transactions from payouts. It will also help maintain the Dogecoin network.", 
     "dgc-osx-wallet-modal-dogecoin-core": "Dogecoin Core.", 
 	"dgc-android-wallet-modal-title": "DOWNLOAD FROM GOOGLE PLAY.",
-    "dgc-android-wallet-modal-apk": "<a href=\"https://github.com/langerhans/dogecoin-wallet-new/releases/download/1.08/wallet-1.08-aligned.apk\">Direct APK Download.</a>",
+    "dgc-android-wallet-modal-apk": "Direct APK Download.",
 	"dgc-ios-wallet-modal-title": "DOWNLOAD FROM THE APP STORE.",
     "dgc-getting-started-title": "GETTING STARTED",
     "dgc-getting-started-desc": "Getting Started with Dogecoin",
