@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Dogecoin is an open source peer-to-peer digital currency, favored by Shiba Inus worldwide." />
+    <meta name="author" content="" />
+        <!--
+               __                            _
+          ____/ /___  ____ ____  _________  (_)___
+         / __  / __ \/ __ `/ _ \/ ___/ __ \/ / __ \
+        / /_/ / /_/ / /_/ /  __/ /__/ /_/ / / / / /
+        \__,_/\____/\__, /\___/\___/\____/_/_/ /_/
+                   /____/
+
+        so markup. very website. wow.
+        made with love by edswf1
+    -->
+    <title>Dogecoin</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <link rel="stylesheet" href="assets/fa/css/all.min.css"/>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        #priceHolder{
+            display: inline-block;
+            line-height: 1.4rem;
+        }
+        .curPrice_USD{
+            display: block;
+        }
+        .curPrice_BTC{
+            font-size: 1rem; 
+            font-weight: 200;
+        }
+        #curPrice_DOGE{
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container-fluid">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/dogecoin-300.png">&nbsp;Dogecoin</a>
+            <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-secondary rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html">Back to Main Page</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><span class="nav-link py-3 px-0 px-lg-3 rounded text-white curPrice_USD"></span></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead bg-primary text-white text-center" style="position:relative;">
+        <div id="particles" style="position:absolute;top:0;bottom:0;left:0;right:0;"></div>
+        <div class="container d-flex align-items-center flex-column">
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="masthead-avatar mb-1" style="margin-top:-3rem;" src="assets/img/doge.png" alt="" />
+                    <!-- Masthead Subheading-->
+                    <p class="masthead-subheading font-weight-light text-secondary mb-0">Getting started with Dogecoin is easy as 1, 2, 3</p>
+                    <p class="text-secondary">Please choose your operating system to begin</p>
+                    <div class="btn-holder">
+                       <div class="btn btn-md btn-info wallet-button" data-target="#windows"><span class="fab fa-windows"></span> Windows</div>
+                       <div class="btn btn-md btn-success wallet-button" data-target="#linux"><span class="fab fa-linux"></span> Linux</div>
+                       <div class="btn btn-md btn-secondary wallet-button" data-target="#osx"><span class="fab fa-apple"></span> OS X</div>
+                       <div class="btn btn-md btn-danger wallet-button" data-target="#android"><span class="fab fa-android"></span> Android</div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </header>
+   <!-- Portfolio Section-->
+   <section class="page-section wallet-guide-detail" style="display:none;" id="windows">
+    <div class="container">
+        <!-- Portfolio Grid Items-->
+        <div class="row text-center justify-content-center">
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <div class="img-holder">
+                        <img style="max-width: 100%;" src="assets/img/tut/downloading_dogewallet_windows.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <p class="lead">1. Download The Wallet</p>
+                    <p class="text-secondary">
+                        Click the buttom below to download MultiDoge, a local Dogecoin wallet.
+                        If you are asked to accept the download, accept the download.
+                        <br>
+                        Once the file finishes downloading, click the (.exe) file.
+                        <br>
+                        <a class="btn btn-sm btn-secondary" href="https://multidoge.org/?dl=win" target="_blank">Download Multidoge</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <div class="img-holder">
+                        <img style="max-width: 100%;" src="assets/img/tut/install_dogewallet_windows.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <p class="lead">2. Install The Wallet</p>
+                    <p class="text-secondary">
+                        Go through the installation process. Once you get to the license agreement, accept it to continue with the installation.
+                        <br>
+                        Once you are finished with the installation, find the MultiDoge shortcut and open it.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <div class="img-holder">
+                        <img style="max-width: 100%;" src="assets/img/tut/dogewallet_windows.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <p class="lead">3. Use Your Wallet!</p>
+                    <p class="text-secondary">
+                        On launch, your wallet will have a loading bar on the bottom-left. You will have to wait 1 - 5 minutes for the wallet to synchronize.
+                        <br>
+                        After it is synchronized with the network, you are now able to use your Dogecoin wallet!
+                        <br>
+                        You have just finished setting up your Dogecoin wallet!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section wallet-guide-detail" style="display:none;" id="linux">
+    <div class="container">
+        <!-- Portfolio Grid Items-->
+        <div class="row text-center justify-content-center">
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <div class="img-holder">
+                        <img style="max-width: 100%;" src="assets/img/tut/downloading_dogewallet_linux.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <p class="lead">1. Download The Wallet</p>
+                    <p class="text-secondary">
+                        Click the link below to download MultiDoge, a local Dogecoin wallet.
+                        Save the file to download the file.
+                        <br>
+                        Find the (.jar) file, open the file with your chosen File Manager.
+                        <br>
+                        <a class="btn btn-sm btn-secondary" href="https://multidoge.org/?dl=lin" target="_blank">Download Multidoge</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <div class="img-holder">
+                        <img style="max-width: 100%;" src="assets/img/tut/install_dogewallet_linux_01.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <p class="lead">2. Set Permissions</p>
+                    <p class="text-secondary">
+                        Right click on the (.jar) file, click "Properties".
+                        <br>
+                        Go to the "Permissions" tab, check the box next to "Execute" to allow executing of the file as a program. Close properties window.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <div class="img-holder">
+                        <img style="max-width: 100%;" src="assets/img/tut/install_dogewallet_linux_02.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <p class="lead">3. Launch as OpenJDK Java</p>
+                    <p class="text-secondary">
+                        Right click the (.jar) file again, hover over "Open With", and then select OpenJDK Java 6 or 7 Runtime.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <div class="img-holder">
+                        <img style="max-width: 100%;" src="assets/img/tut/install_dogewallet_linux_03.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <p class="lead">4. Install The Wallet</p>
+                    <p class="text-secondary">
+                        Go through the installation process. Once you get to the license agreement, accept it to continue with the installation.
+                        <br>
+                        Once you are finished with the installation, find the MultiDoge shortcut and open it.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <div class="img-holder">
+                        <img style="max-width: 100%;" src="assets/img/tut/dogewallet_linux.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <p class="lead">5. Use Your Wallet!</p>
+                    <p class="text-secondary">
+                        On launch, your wallet will have a loading bar on the bottom-left. You will have to wait 1 - 5 minutes for the wallet to synchronize.
+                        <br>
+                        After it is synchronized with the network, you are now able to use your Dogecoin wallet!
+                        <br>
+                        You have just finished setting up your Dogecoin wallet!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section wallet-guide-detail" style="display:none;" id="osx">
+    <div class="container">
+        <!-- Portfolio Grid Items-->
+        <div class="row text-center justify-content-center">
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <div class="img-holder">
+                        <img style="max-width: 100%;" src="assets/img/tut/downloading_dogewallet_osx.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <p class="lead">1. Download The Wallet</p>
+                    <p class="text-secondary">
+                        Click the link below to download MultiDoge, a local Dogecoin wallet.
+                        <br>
+                        Once the download is finished, double click on the file in the "Downloads" drop down menu.
+                        <br>
+                        <a class="btn btn-sm btn-secondary" href="https://multidoge.org/?dl=osx" target="_blank">Download Multidoge</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <div class="img-holder">
+                        <img style="max-width: 100%;" src="assets/img/tut/launch_dogewallet_osx.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <p class="lead">2. Install The Wallet</p>
+                    <p class="text-secondary">
+                        A new window should open when you click on the file. Click and drag the "MultiDoge" icon into the "Applications" folder.
+                        <br>
+                        This will move the wallet into your Applications menu.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <div class="img-holder">
+                        <img style="max-width: 100%;" src="assets/img/tut/dogewallet_osx.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <p class="lead">3. Use Your Wallet!</p>
+                    <p class="text-secondary">
+                        On launch, your wallet will have a loading bar on the bottom-left. You will have to wait 1 - 5 minutes for the wallet to synchronize.
+                        <br>
+                        After it is synchronized with the network, you are now able to use your Dogecoin wallet!
+                        <br>
+                        You have just finished setting up your Dogecoin wallet!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section wallet-guide-detail" style="display:none;" id="android">
+    <div class="container">
+        <!-- Portfolio Grid Items-->
+        <div class="row text-center justify-content-center">
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <div class="img-holder">
+                        <img style="max-width: 100%;" src="assets/img/tut/install_dogewallet_android.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <p class="lead">1. Download The Wallet</p>
+                    <p class="text-secondary">
+                        Go to the Play Store and search "Dogecoin Wallet" on the Play Store, or click the "Get it on Google Play" button.
+                        <br>
+                        Press the "Install" button. Press the "Accept" button on the App Permission Requests panel.
+                        <br>
+                        Wait for the application to download and install.
+                        <br>
+                        <a href="https://play.google.com/store/apps/details?id=de.langerhans.wallet&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1" target="_blank" class="img-holder">
+                            <img style="max-width: 150px;" src="assets/img/google_play.png">
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <div class="img-holder">
+                        <img style="max-width: 100%;" src="assets/img/tut/launch_dogewallet_android.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <p class="lead">2. Install The Wallet</p>
+                    <p class="text-secondary">
+                        On the same page, press the "Open" button. You will be directed to the Dogecoin Wallet.
+                        <br>
+                        You can also access the Dogecoin Wallet within the app drawer on your Android™ smartphone.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <div class="img-holder">
+                        <img style="max-width: 100%;" src="assets/img/tut/dogewallet_android.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="mx-auto">
+                    <p class="lead">3. Use Your Wallet!</p>
+                    <p class="text-secondary">
+                        Now you have a full Dogecoin wallet in your hand!
+                        <br>
+                        On the top, you have your Address Book and Settings.
+                        Under it, you have your Dogecoin address on the left, Dogecoin address in the QR code on the right, and your Dogecoin balance.
+                        <br>
+                        On the bottom, you have your transaction history. On the very bottom, you can "Request Coins", "Send Coins", or scan a QR code with your camera.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer-->
+<footer class="footer text-center">
+    <div class="container">
+        <div class="row">
+            <!-- Footer Location-->
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <a href="index.html" class="btn btn-lg btn-outline-light">Back to Main Page</a>
+            </div>
+            <!-- Footer Social Icons-->
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://facebook.com/OfficialDogecoin/"><i class="fab fa-fw fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://twitter.com/dogecoin"><i class="fab fa-fw fa-twitter"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://www.reddit.com/r/dogecoin"><i class="fab fa-fw fa-reddit"></i></a>
+            </div>
+            <!-- Footer About Text-->
+            <div class="col-lg-4">
+                <a href="https://www.reddit.com/r/dogecoin" target="_blank" class="btn btn-lg btn-outline-light">Community</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Copyright Section-->
+<div class="copyright py-4 text-center text-white">
+    <div class="container"><small>Copyright © The Ðogecoin Project 2021</small></div>
+</div>
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+<div class="scroll-to-top d-lg-none position-fixed">
+    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+</div>
+<!-- Bootstrap core JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Third party plugin JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="js/particles.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+</body>
+</html>
