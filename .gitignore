@@ -13,3 +13,6 @@ site/_site/
 coverage
 .ruby-version
 .sass-cache
+
+# Distribution / packaging
+node_modules
