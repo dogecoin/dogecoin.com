@@ -4,19 +4,13 @@ LABEL maintainer Nick <nick@night.com>
 
 RUN apk add --no-cache \
     bash \
-    git \
-    make \
     gcc &&\
+    npm -g install live-server &&\
     rm -rf /tmp/*
 
 WORKDIR /code
 
-COPY package.json package-lock.json ./
-RUN npm ci --no-optional
-
-ADD ./ ./
-
 EXPOSE 5000
 
-# run dev server
-CMD ["npm", "run", "start:dev"]
+# run live server
+CMD ["live-server", "--host=0.0.0.0", "--port=5000", "--no-browser"]
