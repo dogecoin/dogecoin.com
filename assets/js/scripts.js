@@ -67,20 +67,6 @@
     
   })(jQuery); // End of use strict
 
-  function updatePrice(currency){
-    $.get( "https://chain.so/api/v2/get_price/DOGE/"+currency, function( response ) {
-     console.log(response);
-     var commas = 6;
-     if(currency == 'BTC'){
-      commas = 8;
-    }
-    var price = parseFloat(response.data.prices[0].price);
-    var priceBase = response.data.prices[0].price_base;
-    $selector = $(".curPrice_"+currency);
-    $selector.html(price.toFixed(commas) + " " + priceBase);
-  });
-  }
-
   function initParticles(){
     particlesJS("particles", {
       "particles": {
