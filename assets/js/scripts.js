@@ -221,7 +221,7 @@
    } );
 }
 // Enable debug
-$.i18n.debug = true;
+$.i18n.debug = false;
 
 $(document).ready(function(){
 
