@@ -81,6 +81,6 @@ Now clone the repo (cloning will create the subdirectory `dogecoin`)
     
 ## Step 3: Happy Coding :)
 
-Now you have a working copy of [dogecoin.com](http://dogecoin.com) at [http://127.0.0.1/dogecoin](http://127.0.0.1/dogecoin).
+Now you have a working copy of [dogecoin.com](https://dogecoin.com) at [http://127.0.0.1/dogecoin](http://127.0.0.1/dogecoin).
 
 Just point your favourite IDE or Editor to `/var/www/dogecoin` or `/var/www/html/dogecoin` and start editing.
