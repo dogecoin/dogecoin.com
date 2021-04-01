@@ -1,6 +1,9 @@
 ---
 name: Bug Report
 about: You're experiencing an issue with Dogecoin.com.
+title: ""
+labels: bug
+assignees: ""
 ---
 
 <!--
@@ -8,10 +11,12 @@ about: You're experiencing an issue with Dogecoin.com.
 * Remove sections that do not apply.
 * This issue tracker is only for technical issues related to Dogecoin.com.
 * For general questions about Dogecoin.com please use one of the various communities, e.g. Reddit, IRC, Discord, etc.
+* Please search the existing issues for relevant bug reports, and use the [reaction feature](https://blog.github.com/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/) to add upvotes to pre-existing reports.
 
 -->
 
 ### Describe the issue
+Tell us about the issue
 
 ### Can you reliably reproduce the issue?
 #### If so, please list the steps to reproduce below:
