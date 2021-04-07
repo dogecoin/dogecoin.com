@@ -251,6 +251,7 @@
     "dgc-configure-wallet-1": "After downloading, you can configure your Wallet according to our <a class=\"btn btn-sm btn-outline-secondary\" href=\"guide.html\">Guide</a>",
     "dgc-choose-wallet-1": "Pick a Wallet from our <a class=\"btn btn-sm btn-outline-secondary js-scroll-trigger\" href=\"#wallets\">Wallet Section</a>",
     "dgc-choose-wallet-2": "A Wallet is used for holding your Dogecoins directly on your Computer/Smartphone.",
+    "dgc-faq": "FAQ",
     "dgc-guide": "Guide",
     "dgc-support": "Support",
     "dgc-support-spread-the-word": "Spread the Word",
