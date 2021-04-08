@@ -96,8 +96,6 @@
     "dgc-exchanges-modal-tipped": "You can get tipped Dogecoin by participating in <a class=\"btn btn-sm btn-outline-secondary\" target=\"_blank\" href=\"http://www.reddit.com/r/dogecoin\">our community</a>. If that's not your style, another way to have your first Dogecoin is to participate at Folding@Home.", 
     "dgc-exchanges-modal-fah-faq": "<a class=\"btn btn-sm btn-outline-secondary\" target=\"_blank\" href=\"https://www.dogecoinfah.com\" target=\"_blank\">Folding@Home (FaH)</a> is a distributed computing project. You can join team dogefolders, bring in your computing power, help to find find cures for diseases and receive some Doges for your efforts.", 
     "dgc-exchanges-modal-faucet-sites": "Here are a all resources to start folding:", 
-    "dgc-exchanges-modal-dogecoinfah": "DogecoinFaH.com", 
-    "dgc-exchanges-modal-dogecoinfah-desc": " - Team dogefolders.", 
     "dgc-exchanges-modal-indogewetrust": "InDogeWeTrust.com", 
     "dgc-exchanges-modal-indogewetrust-desc": " - Same as Dogefaucet.", 
     "dgc-exchanges-modal-dogechat": "Dogechat.net", 
