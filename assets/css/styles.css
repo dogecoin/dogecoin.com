@@ -480,3 +480,17 @@ button.bg-primary:focus {
     padding-left: .5rem !important;
   }
 }
+.support-content{
+  min-height: 300px;
+  max-width: 500px;
+  border: 1px solid #4a6c7d;
+  margin: 0px auto;
+  padding: 20px;
+  border-radius: .5rem;
+}
+.support-content .fa{
+  font-size: 2rem;
+}
+.support-content .heading{
+  font-size: 1.2rem;
+}
