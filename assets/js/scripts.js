@@ -246,7 +246,22 @@ $(document).ready(function(){
   initParticles();
 
   copyright_year().then(year => {
-    document.getElementById('copyright').innerHTML = `Copyright © ${year} The Ðogecoin Project`
+    // spanish Copyright © 2021 El proyecto Ðogecoin
+    // Dutch Copyright © 2021 Het Ðogecoin-project
+    // Copyright © 2021 Le projet Ðogecoin
+    // fr is french
+    // es is spanish
+    // de - deustch
+    // en english
+    const lang = sessionStorage.getItem('dgc-lang');
+    let copy_stament = '';
+    switch(lang){
+      case 'es': copy_stament = `Copyright © ${year} El proyecto Ðogecoin`;break;
+      case 'de': copy_stament = `Copyright © ${year} Het Ðogecoin-project`;break;
+      case 'fr': copy_stament = `Copyright © ${year} Le projet Ðogecoin`;break;
+      default : copy_stament = `Copyright © ${year} The Ðogecoin Project`;break;
+    }
+    document.getElementById('copyright').innerHTML = `${copy_stament}`
   }).catch(e => {
     // do nothing
   })
