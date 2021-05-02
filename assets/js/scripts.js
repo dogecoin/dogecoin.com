@@ -249,10 +249,7 @@ $(document).ready(function(){
     // spanish Copyright © 2021 El proyecto Ðogecoin
     // Dutch Copyright © 2021 Het Ðogecoin-project
     // Copyright © 2021 Le projet Ðogecoin
-    // fr is french
-    // es is spanish
-    // de - deustch
-    // en english
+
     const lang = sessionStorage.getItem('dgc-lang');
     let copy_stament = '';
     switch(lang){
