@@ -199,7 +199,21 @@ h1, h2, h3, h4, h5, h6,
   line-height: 3rem;  
   color: #1abc9c; 
   opacity: 1; 
-} 
+}
+.img-holder {
+  margin-top: -100px;
+}
+.portfolio-img{
+  max-width: 150px;
+}
+@media (max-width: 767px) {
+  .porfolio-col {
+    margin-bottom: 100px !important;
+  }
+  .porfolio-col:last-child {
+    margin-bottom: 0px !important;
+  }
+}
 .floating-label-form-group {  
   position: relative; 
   border-bottom: 1px solid #e9ecef; 
