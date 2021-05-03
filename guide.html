@@ -388,11 +388,17 @@ redirect_from:
             </div>
             <!-- Footer About Text-->
             <div class="col-lg-4">
-                <p class="lead" data-i18n="dgc-language">Language</p>
-                <a class="text-white select-lang" style="cursor: pointer;" data-lang="en">English</a><br>
-                <a class="text-white select-lang" style="cursor: pointer;" data-lang="de">Deutsch</a><br>
-                <a class="text-white select-lang" style="cursor: pointer;" data-lang="fr">Français</a><br>
-                <a class="text-white select-lang" style="cursor: pointer;" data-lang="es">Español</a><br>
+                <div class="dropdown">
+                  <a class="btn btn-lg btn-outline-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span data-i18n="dgc-language">Language</span>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <li><a class="dropdown-item select-lang" data-lang="en">English</a></li>
+                      <li><a class="dropdown-item select-lang" data-lang="de">Deutsch</a></li>
+                      <li><a class="dropdown-item select-lang" data-lang="fr">Français</a></li>
+                      <li><a class="dropdown-item select-lang" data-lang="es">Español</a></li>
+                  </div>
+                </div>
             </div>
         </div>
     </div>
