@@ -13,3 +13,7 @@ site/_site/
 coverage
 .ruby-version
 .sass-cache
+/.idea/.gitignore
+/.idea/dogecoin.com.iml
+/.idea/modules.xml
+/.idea/vcs.xml
