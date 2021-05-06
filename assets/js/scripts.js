@@ -205,7 +205,7 @@
     lang = setLang;
   }
 
-  if(lang != 'en' && lang != 'de' && lang != 'fr' && lang != 'es'){
+  if(lang != 'en' && lang != 'de' && lang != 'fr' && lang != 'es' && lang != 'it'){
     lang = 'en';
   }
   sessionStorage.setItem('dgc-lang', lang);
