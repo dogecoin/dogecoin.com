@@ -2,10 +2,11 @@
     "@metadata": {
         "authors": [
             "MagnetiCat - Lorenzo Harry Bassanelli",
+	    	 "Waddafunk - Jacopo Piccirillo",
             "getlocalization contributors",
             "etc"
         ],
-        "last-updated": "2021-05-04",
+        "last-updated": "2021-05-06",
         "locale": "it",
         "message-documentation": "qqq",
         "website-url": "dogecoin.com"
