@@ -91,7 +91,7 @@
     "dgc-community-modal-not-bite": "Participez, promis nous ne vous mordrons pas&nbsp;!", 
     "dgc-exchanges-modal-title": "OBTENIR DES DOGECOINS :",
     "dgc-exchanges-modal-many-ways": "Il existe de nombreux moyens pour obtenir des Dogecoins. Vous pouvez en acheter, marchander (vendre) contre des Dogecoins, vous faire «&nbsp;tipper&nbsp;», en «&nbsp;miner&nbsp;» et plus encore. Il existe une infinité de manières d'en obtenir&nbsp;!", 
-    "dgc-exchanges-modal-tipped": "Vous pouvez vous faire tipper des Dogecoins en participant à <a class=\"btn btn-sm btn-outline-secondary\" target=\"_blank\" href=\"https://www.reddit.com/r/dogecoin\">notre communauté</a>.<br> Ou vous pouvez obtenir vos premiers Dogecoins en participant des Folding@Home.", 
+    "dgc-exchanges-modal-tipped": "Vous pouvez vous faire tipper des Dogecoins en participant à <a class=\"btn btn-sm btn-outline-secondary\" target=\"_blank\" href=\"https://www.reddit.com/r/dogecoin\">notre communauté</a>.<br> Ou vous pouvez obtenir vos premiers Dogecoins en participant des <a href=\"https://www.dogecoinfah.com/\">Dogecoin Folding@Home</a>.", 
     "dgc-exchanges-modal-fah-faq": "<a class=\"btn btn-sm btn-outline-secondary\" target=\"_blank\" href=\"https://www.dogecoinfah.com\" target=\"_blank\">Folding@Home (FaH)</a> c'est un projet de calcul distribué. Vous pouvez rejoindre les dogefolders de l'équipe, apporter votre puissance de calcul, aider à trouver des remèdes contre les maladies et recevoir des Doges pour vos efforts.", 
     "dgc-exchanges-modal-dogefaucet-desc": "- Entrez votre adresse pour obtenir des Dogecoins gratuits.", 
     "dgc-exchanges-modal-indogewetrust": "InDogeWeTrust.com", 
@@ -248,6 +248,8 @@
     "dgc-choose-wallet-2": "Un portefeuille est utilisé pour conserver vos Dogecoins directement sur votre ordinateur / smartphone.",
     "dgc-guide": "Guide",
     "dgc-menu": "Menu",
+    "dgc-get-wallet": "Téléchargez Wallet",
+    "dgc-wallets": "Wallets",    
     "dgc-get-some": "Obtenez des Dogecoins",
     "dgc-language": "Langue",
     "dgc-back-to-main": "Retour à la page principale"
