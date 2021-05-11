@@ -252,7 +252,7 @@ form .row:first-child .floating-label-form-group {
   background-color: #1a252f;  
 }
 
-a{
+a.footerlink{
   color: #f2ede0;
 }
 .btn-primary {

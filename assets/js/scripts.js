@@ -205,11 +205,11 @@
     lang = setLang;
   }
 
-  if(lang != 'en' && lang != 'de' && lang != 'fr' && lang != 'es' && lang != 'it' && lang !='mr'){
+if(lang != 'en' && lang != 'de' && lang != 'fr' && lang != 'es' && lang != 'it' && lang != 'hi' && lang != 'id' && lang!='mr'){
     lang = 'en';
   }
   sessionStorage.setItem('dgc-lang', lang);
-
+    
   i18n.locale = lang;
   
   i18n.load('assets/i18n', i18n.locale).done(
