@@ -1,31 +1,32 @@
 # Dogecoin.com
 
-Dogecoin.com, for shibes and people everywhere.
+Dogecoin.com, untuk para shiba dan semua orang dimana saja.
 
 ![DogeCoin](http://static.tumblr.com/ppdj5y9/Ae9mxmxtp/300coin.png)
 
-## What is this?
-It's the Dogecoin.com homepage. Made so everyone, even the nontechnical, can use Dogecoin.
-Designed to retain the spirit of Dogecoin, whilst appealing to the more serious with its modern, simple design.
+## Apa ini?
+Ini adalah beranda Dogecoin.com. Dibuat untuk semua orang, bahkan untuk orang nonteknis sekalipun dapat menggunakan Dogecoin.
+Dibuat semenarik mungkin, desain yang sederhana, untuk memelihara semangat dari Dogecoin.
 
-Dogecoin.com is completely responsive, it'll look good on your smartphone, tablet, desktop, and more.
-It is completely HTML5 W3C Validated, which means it complies with the standards set by W3C.
+Dogecoin.com dibuat dengan responsive keseluruhannya, akan terlihat bagus di smartphone, tablet, desktop dan lainnya.
+Dogecoin.com secara keseluruhan tervalidasi HTML5 W3C.
 
-## Technical Details Pls.
-Languages:
-Mainly written in HTML (dur), CSS (such dur), and Javascript (moar dur).
+
+## Detail Tekknis Dong.
+Bahasa Pemrograman:
+Utamanya dibuat denga HTML (hmm..), CSS (hmm.. ok), dan Javascript (ini baru benar)
 
 Frameworks:
 Bootstrap and jQuery.
 
-Extras:
+Tambahan:
 FitVids, FitText, Font-Awesome, MFizz Fonts, Google Oswald.
 
-## Can I contribute ?
-Yes you can!
-We created some guides just for you:
+## Apakah saya bisa berkontribusi ?
+Ya kamu bisa!
+Kami membuat beberapa panduan untuk kamu:
 
-| [Windows Guide][G1] | [Linux Guide][G2] | [OSX Guide][G3] | [Docker Guide][G4] |
+| [Panduan Windows][G1] | [Panduan Linux][G2] | [Panduan OSX][G3] | [Panduan Docker][G4] |
 |:-----------------:|:-------------------:|:---------------:|:------------------:|
 
 [G1]: https://github.com/dogecoin/dogecoin.com/blob/gh-pages/getting-started/contribute_windows.md
