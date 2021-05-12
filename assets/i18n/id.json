@@ -1,13 +1,12 @@
 {
     "@metadata": {
         "authors": [
-            "Kim Shibetoshi",
-            "getlocalization contributors",
-            "etc"
+            "Josi Kie",
+            "Kim Shibetoshi! Tip DG8j7EoMG8BgWnijXKZ12oZHs7KHmtGmYd Such thanks!",
         ],
         "last-updated": "2021-04-14",
         "locale": "id",
-        "message-documentation": "Doge-wow-me! DG8j7EoMG8BgWnijXKZ12oZHs7KHmtGmYd Such thanks!",
+        "message-documentation": "Updating some wrongly translated words",
         "website-url": "dogecoin.com"
     },
     "dgc-title": "dogecoin",

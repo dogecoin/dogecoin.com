@@ -204,12 +204,11 @@
   else{
     lang = setLang;
   }
-
-  if(lang != 'en' && lang != 'de' && lang != 'fr' && lang != 'es' && lang != 'it' && lang != 'id'){
+  if(lang != 'en' && lang != 'de' && lang != 'fr' && lang != 'es' && lang != 'it' && lang != 'hi' && lang != 'id' && lang!='mr' && lang != 'tr'){
     lang = 'en';
   }
   sessionStorage.setItem('dgc-lang', lang);
-
+    
   i18n.locale = lang;
   
   i18n.load('assets/i18n', i18n.locale).done(
