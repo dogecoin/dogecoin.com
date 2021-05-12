@@ -1,0 +1,14 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://dogecoin.com/index.html</loc>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://dogecoin.com/guide.html</loc>
+        <priority>0.99</priority>
+    </url>
+    <url>
+        <loc>https://dogecoin.com/support.html</loc>
+        <priority>0.98</priority>
+    </url>
+</urlset>
