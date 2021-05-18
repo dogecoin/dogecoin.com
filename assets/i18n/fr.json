@@ -244,8 +244,7 @@
     "dgc-choose-wallet": "Choisissez votre portefeuille",
     "dgc-configure-wallet": "Configurer le portefeuille",
     "dgc-configure-wallet-1": "Après le téléchargement, vous pouvez configurer votre portefeuille conformément à notre  <a class=\"btn btn-sm btn-outline-secondary\" href=\"guide.html\"> Guide </a>",
-    "dgc-choose-wallet-1": "Choisissez un portefeuille dans notre <a class=\"btn btn-sm btn-outline-secondary js-scroll-trigger\" href=\"#wallets\">Section Portefeuille
-    </a>",
+    "dgc-choose-wallet-1": "Choisissez un portefeuille dans notre <a class=\"btn btn-sm btn-outline-secondary js-scroll-trigger\" href=\"#wallets\">Section Portefeuille </a>",
     "dgc-choose-wallet-2": "Un portefeuille est utilisé pour conserver vos Dogecoins directement sur votre ordinateur / smartphone.",
     "dgc-guide": "Guide",
     "dgc-menu": "Menu",

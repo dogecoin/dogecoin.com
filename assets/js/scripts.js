@@ -205,7 +205,8 @@
     lang = setLang;
   }
 
-  if(lang != 'en' && lang != 'de' && lang != 'fr' && lang != 'es' && lang != 'it' && lang != 'hi' && lang != 'id' && lang!='mr' && lang != 'tr' && lang != 'zh-cn'){
+
+  if(lang != 'en' && lang != 'de' && lang != 'fr' && lang != 'es' && lang != 'it' && lang != 'hi' && lang != 'id' && lang!='mr' && lang != 'tr' && lang != 'zh-cn' && lang!='kn' && lang != 'ru'){
     lang = 'en';
   }
   sessionStorage.setItem('dgc-lang', lang);
