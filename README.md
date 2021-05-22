@@ -11,7 +11,7 @@ Designed to retain the spirit of Dogecoin, whilst appealing to the more serious 
 Dogecoin.com is completely responsive, it'll look good on your smartphone, tablet, desktop, and more.
 It is completely HTML5 W3C Validated, which means it complies with the standards set by W3C.
 
-## Technical Details Please.
+## Technical details please.
 Languages:
 Mainly written in HTML (dur), CSS (such dur), and Javascript (moar dur).
 
