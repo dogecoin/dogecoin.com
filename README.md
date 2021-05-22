@@ -1,6 +1,6 @@
 # Dogecoin.com
 
-Dogecoin.com, for shibes and people everywhere.
+[Dogecoin.com](https://dogecoin.com), for shibes and people everywhere.
 
 ![DogeCoin](http://static.tumblr.com/ppdj5y9/Ae9mxmxtp/300coin.png)
 
@@ -11,7 +11,7 @@ Designed to retain the spirit of Dogecoin, whilst appealing to the more serious 
 Dogecoin.com is completely responsive, it'll look good on your smartphone, tablet, desktop, and more.
 It is completely HTML5 W3C Validated, which means it complies with the standards set by W3C.
 
-## Technical Details Pls.
+## Technical Details Please.
 Languages:
 Mainly written in HTML (dur), CSS (such dur), and Javascript (moar dur).
 
@@ -21,7 +21,7 @@ Bootstrap and jQuery.
 Extras:
 FitVids, FitText, Font-Awesome, MFizz Fonts, Google Oswald.
 
-## Can I contribute ?
+## Can I contribute?
 Yes you can!
 We created some guides just for you:
 
