@@ -41,6 +41,7 @@
     "dgc-reddit": "Reddit Community", 
     "dgc-dogeducation": "Dogeducation Reddit Community",
     "dgc-twitter": "Twitter",
+    "dgc-discord": "Discord Community",
     "dgc-getting-started": "How to get started with Dogecoin.", 
     "dgc-setup-wallet": "Setting up a Dogecoin wallet is as <strong>easy</strong> as 1, 2, 3. Seriously! Check out our Getting Started guide below.", 
     "dgc-edu-help": "If you need help, drop by r/dogeducation on Reddit! <br /> We're a helpful bunch of people and we'll answer any questions that you throw at us!",
@@ -94,7 +95,7 @@
     "dgc-exchanges-modal-title": "GET DOGECOIN:",
     "dgc-exchanges-modal-many-ways": "There are numerous amounts of ways to get Dogecoin. You can buy them, trade for them, get tipped, \"mine\" them, and more. They are surprisingly endless!", 
     "dgc-exchanges-modal-tipped": "You can get tipped Dogecoin by participating in <a class=\"btn btn-sm btn-outline-secondary\" target=\"_blank\" href=\"http://www.reddit.com/r/dogecoin\">our community</a>. If that's not your style, another way to have your first Dogecoin is to participate at <a href=\"https://www.dogecoinfah.com/\">Dogecoin Folding@Home</a>.", 
-    "dgc-exchanges-modal-fah-faq": "<a class=\"btn btn-sm btn-outline-secondary\" target=\"_blank\" href=\"https://www.dogecoinfah.com\" target=\"_blank\">Folding@Home (FaH)</a> is a distributed computing project. You can join team dogefolders, bring in your computing power, help to find find cures for diseases and receive some Doges for your efforts.", 
+    "dgc-exchanges-modal-fah-faq": "<a class=\"btn btn-sm btn-outline-secondary\" target=\"_blank\" href=\"https://www.dogecoinfah.com\" target=\"_blank\">Folding@Home (FaH)</a> is a distributed computing project. You can join team dogefolders, bring in your computing power, help to find cures for diseases and receive some Doges for your efforts.", 
     "dgc-exchanges-modal-faucet-sites": "Here are a all resources to start folding:", 
     "dgc-exchanges-modal-indogewetrust": "InDogeWeTrust.com", 
     "dgc-exchanges-modal-indogewetrust-desc": " - Same as Dogefaucet.", 
@@ -263,5 +264,6 @@
     "dgc-wallets": "Wallets",     
     "dgc-get-some": "Get Some Dogecoin",
     "dgc-language": "Language",
-    "dgc-back-to-main": "Back to Main Page"
+    "dgc-back-to-main": "Back to Main Page",
+    "dgc-android-wallet": "Android Wallet"
 }
