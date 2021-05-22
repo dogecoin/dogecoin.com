@@ -21,7 +21,7 @@ Bootstrap and jQuery.
 Extras:
 FitVids, FitText, Font-Awesome, MFizz Fonts, Google Oswald.
 
-## Can I Contribute?
+## Can I contribute?
 Yes you can!
 We created some guides just for you:
 
