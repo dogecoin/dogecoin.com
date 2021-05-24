@@ -92,7 +92,7 @@
     "dgc-community-modal-not-bite": "Versuche es, wir versprechen: wir bei&szlig;en nicht!",
     "dgc-exchanges-modal-title": "DOGECOIN ERHALTEN:",
     "dgc-exchanges-modal-many-ways": "Es gibt zahlreiche Wege, Dogecoins zu erhalten. Du kannst sie kaufen, etwas f&uuml;r sie eintauschen, sie geschenkt bekommen, sie \"abbauen\", und vieles mehr. Die M&ouml;glichkeiten sind endlos!",
-    "dgc-exchanges-modal-tipped": "Du kannst Dogecoins geschenkt bekommen, indem du in <a class=\"btn btn-sm btn-outline-secondary\" target=\"_blank\" href=\"https://www.reddit.com/r/dogecoin\">unserer Community</a> mitmachst.<br> Falls das nicht dein Stil ist, ist eine andere M&ouml;glichkeit Dogecoins zu bekommen, bei <a href=\"https://www.dogecoinfah.com/\">Dogecoin Folding@Home</a> mitzumachen",
+    "dgc-exchanges-modal-tipped": "Du kannst Dogecoins geschenkt bekommen, indem du in <a class=\"btn btn-sm btn-outline-secondary\" target=\"_blank\" href=\"https://www.reddit.com/r/dogecoin\">unserer Community</a> mitmachst.<br> Falls das nicht dein Stil ist, ist eine andere M&ouml;glichkeit Dogecoins zu bekommen, bei <a href=\"https://www.dogecoinfah.com/\">Dogecoin Folding@Home.</a> mitzumachen",
     "dgc-exchanges-modal-fah-faq": "<a class=\"btn btn-sm btn-outline-secondary\" target=\"_blank\" href=\"https://www.dogecoinfah.com\" target=\"_blank\">Folding@Home (FaH)</a> ist ein verteiltes Rechen-Projekt. Du kannst dem Team dogefolders beitreten, deine Rechenleistung zur Verf&uuml;gung stellen, helfen eine Heilung f&uuml;r Krankheiten zu finden und ein paar Dogecoins daf&uuml;r erhalten. Bitte beachte, dass eventuelle Belohnungen vom Dogecoin Folding@Home Team gezahlt werden. Das Folding@Home Projekt steht in keiner Beziehung zu Dogecoin.",
     "dgc-exchanges-modal-dogefaucet-desc": " - Gib deine Adresse ein, um kostenlose Dogecoins zu bekommen.",
     "dgc-exchanges-modal-indogewetrust": "InDogeWeTrust.com",
@@ -209,7 +209,7 @@
     "dgc-getting-started-ios-2-0": "2. Warte, bis die Anwendung heruntergeladen ist.",
     "dgc-getting-started-ios-2-1": "Doughwallet wird ein paar Sekunden bis zu einigen Minuten zum Herunterladen ben&ouml;tigen, je nach der Bandbreite deines Internetanschlusses.",
     "dgc-getting-started-ios-2-2": "Sobald es heruntergeladen ist, dr&uuml;cke auf das Icon, um die App zu starten.",
-    "dgc-getting-started-ios-3-1": "Nach dem Start, musst du 1 - 5 Minuten warten damit sich das Wallet synchronisiert.",
+    "dgc-getting-started-ios-3-1": "Nach dem Start musst du 1 - 5 Minuten warten, damit sich das Wallet synchronisiert.",
     "dgc-getting-started-ios-3-2": "Nach dem Synchronisieren mit dem Netzwerk, kannst du das Dogecoin Wallet benutzen!",
     "dgc-getting-started-ios-3-3": "Du hast das Setup f&uuml;r das Dogecoin Wallet erfolgreich beendet!",
     "dgc-getting-started-ios-acknowledge": "Fotos und iOS Anleitung von  <a href=\"https://www.reddit.com/user/FlippyDog101\" target=\"_blank\">/u/FlippyDog101</a>. Webseite von <a href=\"https://reddit.com/user/PowerLemons\" target=\"_blank\">/u/PowerLemons</a>.",
@@ -255,5 +255,5 @@
     "dgc-wallets": "Wallets",    
     "dgc-get-some": "Hol dir ein paar Dogecoins",
     "dgc-language": "Sprache",
-    "dgc-back-to-main": "Zur&uuml;ck zur Hauptseite"
+    "dgc-back-to-main": "Zur&uuml;ck zur Startseite"
 }
