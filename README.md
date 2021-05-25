@@ -1,9 +1,9 @@
-# Dogecoin.com
-
+<h1 align="center">Dogecoin.com</h1>
+<h2 align="center">
 Dogecoin.com, for shibes and people everywhere.
 
 ![DogeCoin](http://static.tumblr.com/ppdj5y9/Ae9mxmxtp/300coin.png)
-
+</h2>
 ## What is this?
 It's the Dogecoin.com homepage. Made so everyone, even the nontechnical, can use Dogecoin.
 Designed to retain the spirit of Dogecoin, whilst appealing to the more serious with its modern, simple design.
