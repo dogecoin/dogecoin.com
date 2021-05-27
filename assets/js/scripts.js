@@ -239,3 +239,15 @@ $(document).ready(function(){
   });
 });
 
+function toggleDN() {
+  var x = document.getElementById("toggleBtn");
+  if (x.innerHTML === "🌙") {
+    x.innerHTML = "☀️";
+    document.body.style.backgroundColor = "#181818";
+    document.body.style.color = "white";
+  } else {
+    x.innerHTML = "🌙";
+    document.body.style.backgroundColor = "white";
+    document.body.style.color = "#212529";
+  }
+}
