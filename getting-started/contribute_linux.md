@@ -12,7 +12,7 @@ Before you start, you will need a webserver. The most common webservers are **Ap
 
 We'll build and use a LAMP-Stack (**L**inux **A**pache **M**ySQL **P**HP) in our Guide.
 
-First install the needed packages:
+First, install the needed packages:
 
 Open a terminal and execute:
 
