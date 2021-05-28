@@ -57,7 +57,7 @@
     "dgc-footer-credits": "Created by <a href=\"https://ummjackson.com\" target=\"_blank\">Jackson Palmer</a> & <a href=\"https://twitter.com/BillyM2k\" target=\"_blank\">Shibetoshi Nakamoto</a>. Website Design by <a href=\"https://www.reddit.com/user/edswf1\" target=\"_blank\">/u/edswf1</a>. Logo by <a href=\"http://christinemix.com\" target=\"_blank\">Christine Ricks</a>.",
     "dgc-footer-copyright": "© The Ðogecoin Project", 
     "dgc-browser-modal-title": "CHOOSE AN ONLINE WALLET:", 
-    "dgc-browser-modal-online": "Online wallets are the quickest and easiest way to use Dogecoin, but lack the security of storing your wallet on your local computer. <br /><br />We recommend you only store a small amount of Dogecoin in an online wallet۔<br />There are several browser-based wallets available to choose from:",
+    "dgc-browser-modal-online": "Online wallets are the quickest and easiest way to use Dogecoin, but lack the security of storing your wallet on your local computer. <br /><br />We recommend you to only store a small amount of Dogecoin in an online wallet۔<br />There are several browser-based wallets available to choose from:",
     "dgc-browser-modal-dogechain": "DogeChain Wallet", 
     "dgc-browser-modal-holytransaction": "HolyTransaction", 
     "dgc-browser-modal-blockio": "Block.io", 
