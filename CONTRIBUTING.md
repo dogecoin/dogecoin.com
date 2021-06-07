@@ -1,10 +1,11 @@
 # Contributing to dogecoin.com
 Welcome! Any changes made to this repository will reflect on the official website - dogecoin.com
+
 This document explains the practical process and guidelines for contributing.
 There are repository "maintainers" who are responsible for merging pull requests as well as a "lead maintainer" who is responsible for the release cycle, overall merging, moderation and appointment of maintainers.
 
 # Contributor Workflow
-The codebase is maintained using the "contributor workflow" where everyone without exception contributes patch proposals using "pull requests". This facilitates social contribution, easy testing and peer review.
+The website is maintained using the "contributor workflow" where everyone without exception contributes patch proposals using "pull requests". This facilitates social contribution, easy testing and peer review.
 
 To contribute a patch, the workflow is as follows:
 
