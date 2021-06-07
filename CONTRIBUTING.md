@@ -58,3 +58,9 @@ Concept ACK means "I agree in the general principle of this pull request";
 Reviewers should include the commit hash which they reviewed in their comments.
 
 Project maintainers reserve the right to weigh the opinions of peer reviewers using common sense judgement and also may weight based on meritocracy: Those that have demonstrated a deeper commitment and understanding towards the project (over time) or have clear domain expertise may naturally have more weight, as one would expect in all walks of life.
+
+# Getting Started 
+* [Contributing to dogecoin.com (Docker Guide)](https://github.com/dogecoin/dogecoin.com/blob/gh-pages/getting-started/contribute_docker.md)
+* [Contributing to dogecoin.com (Linux Guide)](https://github.com/dogecoin/dogecoin.com/blob/gh-pages/getting-started/contribute_linux.md)
+* [Contributing to dogecoin.com (OSX Guide)](https://github.com/dogecoin/dogecoin.com/blob/gh-pages/getting-started/contribute_osx.md)
+* [Contributing to dogecoin.com (Windows Guide)](https://github.com/dogecoin/dogecoin.com/blob/gh-pages/getting-started/contribute_windows.md)
