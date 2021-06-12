@@ -205,7 +205,7 @@
     lang = setLang;
   }
 
-  if(lang != 'en' && lang != 'de' && lang != 'fr' && lang != 'es' && lang != 'it' && lang != 'hi' && lang != 'id' && lang!='mr' && lang != 'tr' && lang!='kn' && lang != 'ru'){
+  if(lang != 'en' && lang != 'de' && lang != 'fr' && lang != 'es' && lang != 'it' && lang != 'hi' && lang != 'id' && lang!='mr' && lang != 'tr' && lang!='kn' && lang != 'ru' && lang != 'he'){
     lang = 'en';
   }
   sessionStorage.setItem('dgc-lang', lang);
@@ -219,7 +219,15 @@
       $(this).html($.i18n($(this).attr('data-i18n')));
     } );
    } );
+
+  //Rtl languages support
+  if (lang === "he") {
+    $("html").attr("dir", "rtl");
+    $("p").css("text-align", "center");
+  }
 }
+
+
 // Enable debug
 $.i18n.debug = false;
 
