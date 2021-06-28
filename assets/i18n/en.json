@@ -277,8 +277,8 @@
     "dgc-faq-okay-but-what-does-that-mean-desc": "It means you don't have to trust any central organisation or person the way you would a bank, but also that you have to be your own bank. The developers can't seize your funds, but they also can't return them if you send them to the wrong address.",
     "dgc-faq-so-who-does-run-dogecoin": "So who does run Dogecoin?",
     "dgc-faq-so-who-does-run-dogecoin-desc": "No-one, or everyone does equally, depending how you look at it. The developers can release new software, but the community have to choose to use that software. That community includes not just the end-users, but miners, exchanges, payment processors, etc. Typically the community does adopt new software we release because we have an established track record, but there's no special access we have.",
-    "dgc-faq-wrong_address": "I sent my funds to the wrong address, can you help?",
-    "dgc-faq-wrong_address_desc": "Sadly no. Again, the developers have no special access.",
+    "dgc-faq-wrong_address": "I sent my Dogecoin to the wrong address, or I sent Dogecoin to a correct address, expecting goods or a payment in return, and have not received anything back - can you help in either case?",
+    "dgc-faq-wrong_address-desc": "Sadly, no in both cases.  As noted above, Dogecoin is a decentralized project and the developers working on the project have no special access or ability to reverse transactions or recover funds.  If you feel you have been mislead or wronged in a transaction involving Dogecoin, you should consult the relevant authorities in respect of the parties, exchanges, wallets or other services you dealt with.",
     "dgc-faq-reset-two-factor-authentication": "Can you reset my two factor authentication?",
     "dgc-faq-reset-two-factor-authentication-desc": "We do not run any of the services which you log into, you would need to contact the service in question.",
     "dgc-faq-lost-my-wallet": "I lost my wallet/private key, what do I do now?",
@@ -294,5 +294,7 @@
     "dgc-faq-scam-giveaway": "I sent coins to the giveaway, why hasn't anything come back?",
     "dgc-faq-scam-giveaway-desc": "Sadly these are people impersonating the Dogecoin founders, developers, or similar. No-one needs you to send them coins in order for them to send you coins back. There's a good article on this on the BBC news website at <a href=\"https://www.bbc.co.uk/news/technology-56402378\">https://www.bbc.co.uk/news/technology-56402378</a>.",
     "dgc-faq-trade-not-gone-through": "Why has my trade not gone through?",
-    "dgc-faq-trade-not-gone-through": "The developers are not running an exchange, nor do we license exchanges, you would need to talk to the exchange in question."
+    "dgc-faq-trade-not-gone-through-desc": "The developers are not running an exchange, nor do we license exchanges, you would need to talk to the exchange in question.",
+    "dgc-faq-how-to-backup": "How do I back up my wallet?",
+    "dgc-faq-how-to-backup-desc": "You need to back up the file \"wallet.dat\", you can find this in the data directory. On Windows by default this is \"%APPDATA%\Dogecoin\", on OS X \"~/Library/Application Support/Dogecoin/\", and on Linux it is \"~/.dogecoin/\"."
 }
