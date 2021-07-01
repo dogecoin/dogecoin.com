@@ -538,17 +538,25 @@ img {
   -khtml-user-select: none !important;
 }
 
+#support-items {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
 .support-content {
   min-height: 300px;
-  max-width: 500px;
+  max-width: 340px;
   border: 1px solid #4a6c7d;
-  margin: 0px auto;
-  padding: 20px;
+  margin: 15px;
+  padding: 50px 20px;
   border-radius: .5rem;
 }
+
 .support-content .fa {
   font-size: 2rem;
 }
+
 .support-content .heading {
   font-size: 1.2rem;
 }
