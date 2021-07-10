@@ -7,7 +7,7 @@ Before you start, you will need a webserver. The most common webservers are **Ap
 
 We'll use XAMPP (**X** **A**pache **M**ySQL **P**HP **P**erl) in this guide.
 
-First go to [apachefriends.org](https://apachefriends.org) and download XAMPP.
+First, go to [apachefriends.org](https://apachefriends.org) and download XAMPP.
 
 ![Screenshot](https://i.imgur.com/661Em5t.jpg)
 

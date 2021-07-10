@@ -1,6 +1,6 @@
 # Dogecoin.com
 
-Dogecoin.com, for shibes and people everywhere.
+[Dogecoin.com](https://dogecoin.com), for shibes and people everywhere.
 
 ![DogeCoin](http://static.tumblr.com/ppdj5y9/Ae9mxmxtp/300coin.png)
 
@@ -21,7 +21,7 @@ Bootstrap and jQuery.
 Extras:
 FitVids, FitText, Font-Awesome, MFizz Fonts, Google Oswald.
 
-## Can I contribute ?
+## Can I contribute?
 Yes you can!
 We created some guides just for you:
 
