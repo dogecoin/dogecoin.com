@@ -51,6 +51,13 @@ async function fetchCount() {
     return
   }
   try {
+    // initial fetch
+      fetchWalletValue()
+      fetchRecent()
+      fetchHighest()
+      fetchCount()
+    
+    // continuously update every 5s
     setInterval(function() {
       fetchWalletValue()
       fetchRecent()
