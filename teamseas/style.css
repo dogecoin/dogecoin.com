@@ -61,7 +61,7 @@ a {
 }
 
 .counter {
-  background: url(/4.png);
+  background: url(./4.png);
   display: flex;
   align-items: center;
   justify-content: center;
