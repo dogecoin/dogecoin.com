@@ -51,10 +51,12 @@ async function fetchCount() {
     return
   }
   try {
-    fetchWalletValue()
-    fetchRecent()
-    fetchHighest()
-    fetchCount()
+    setInterval(function() {
+      fetchWalletValue()
+      fetchRecent()
+      fetchHighest()
+      fetchCount()
+    }, 5000)
   } catch (e) {
     // Handle API Transport errors.
   }
