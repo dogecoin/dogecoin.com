@@ -1,4 +1,4 @@
-const API_ENDPOINT = "https://such-rest.dogecoin.com/api/";
+// values are now hardcoded, since the campaign has ended
 
 function pad(num, size) {
   num = num.toString()
@@ -7,8 +7,7 @@ function pad(num, size) {
 }
 
 async function fetchWalletValue() {
-  const res = await fetch(API_ENDPOINT + "total");
-  const data = await res.text()
+  const data = 163428
   const stringToAdd = pad(parseInt(data), 6).toString()
   for (let x = 0; x < stringToAdd.length; x++) {
     document.getElementById(`digi-${x+1}`).innerText = stringToAdd[x]
@@ -16,55 +15,19 @@ async function fetchWalletValue() {
 }
 
 async function fetchRecent() {
-  const res = await fetch(API_ENDPOINT + "recent")
-  const data = await res.text()
-  document.getElementById('recent').innerText = JSON.parse(data).value
-  // const stringToAdd = pad(parseInt(data), 6).toString()
-  // for (let x = 0; x < stringToAdd.length; x++) {
-  //   document.getElementById(`digi-${x+1}`).innerText = stringToAdd[x]
-  // }
+  document.getElementById('recent').innerText = 1.9
 }
 
 async function fetchHighest() {
-  const res = await fetch(API_ENDPOINT + "largest")
-  const data = await res.text()
-  document.getElementById('highest').innerText = JSON.parse(data).value
-  // const stringToAdd = pad(parseInt(data), 6).toString()
-  // for (let x = 0; x < stringToAdd.length; x++) {
-  //   document.getElementById(`digi-${x+1}`).innerText = stringToAdd[x]
-  // }
+  document.getElementById('highest').innerText = 25000
 }
 
 async function fetchCount() {
-  const res = await fetch(API_ENDPOINT + "count")
-  const data = await res.text()
-  document.getElementById('count').innerText = data
-  // const stringToAdd = pad(parseInt(data), 6).toString()
-  // for (let x = 0; x < stringToAdd.length; x++) {
-  //   document.getElementById(`digi-${x+1}`).innerText = stringToAdd[x]
-  // }
+  document.getElementById('count').innerText = 538
 }
 
-(async function() {
-  if (!fetch) {
-    // Browser not compatible, bailing out
-    return
-  }
-  try {
-    // initial fetch
-      fetchWalletValue()
-      fetchRecent()
-      fetchHighest()
-      fetchCount()
-    
-    // continuously update every 5s
-    setInterval(function() {
-      fetchWalletValue()
-      fetchRecent()
-      fetchHighest()
-      fetchCount()
-    }, 5000)
-  } catch (e) {
-    // Handle API Transport errors.
-  }
-})();
+
+fetchWalletValue()
+fetchRecent()
+fetchHighest()
+fetchCount()
