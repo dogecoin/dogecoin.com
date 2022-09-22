@@ -205,13 +205,13 @@
     lang = setLang;
   }
 
-  if(lang != 'en' && lang != 'de' && lang != 'fr' && lang != 'es' && lang != 'it' && lang != 'hi' && lang != 'id' && lang!='mr' && lang != 'tr' && lang!='kn' && lang != 'ru'){
+  if(lang != 'en' && lang != 'de' && lang != 'fr' && lang != 'es' && lang != 'it' && lang != 'hi' && lang != 'id' && lang!='mr' && lang != 'tr' && lang!='kn' && lang != 'ru' && lang != 'zhCN' && lang != 'zhTW'){
     lang = 'en';
   }
   sessionStorage.setItem('dgc-lang', lang);
     
   i18n.locale = lang;
-  
+
   i18n.load('assets/i18n', i18n.locale).done(
     function() {
      $('[data-i18n]').each(function(index) {
