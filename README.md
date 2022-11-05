@@ -25,7 +25,7 @@ FitVids, FitText, Font-Awesome, MFizz Fonts, Google Oswald.
 Yes you can!
 We created some guides just for you:
 
-| [Windows Guide][G1] | [Linux Guide][G2] | [OSX Guide][G3] | [Docker Guide][G4] |
+| [Windows Guide][G1] | [Linux Guide][G2] | [macOS Guide][G3] | [Docker Guide][G4] |
 |:-----------------:|:-------------------:|:---------------:|:------------------:|
 
 [G1]: https://github.com/dogecoin/dogecoin.com/blob/gh-pages/getting-started/contribute_windows.md
