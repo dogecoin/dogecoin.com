@@ -1,4 +1,4 @@
-## Contributing to dogecoin.com (OSX Guide)
+## Contributing to dogecoin.com (macOS Guide)
 
 
 ### Step 1: Getting the source
