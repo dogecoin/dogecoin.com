@@ -519,7 +519,7 @@ button.bg-primary:focus {
 }
  
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #1e4151; 
   border-radius: 5px;
 }
 
